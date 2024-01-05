@@ -23,7 +23,7 @@ There are two ways to call a method of a file backend:
 
 Examples:
     >>> # Initialize a file backend and call its methods
-    >>> import mmengine.fileio as fileio
+    >>> import custom_mmengine_0102 as mmengine.fileio as fileio
     >>> backend = fileio.get_file_backend(backend_args={'backend': 'petrel'})
     >>> backend.get('s3://path/of/your/file')
 

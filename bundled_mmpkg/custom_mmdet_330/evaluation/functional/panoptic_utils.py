@@ -7,7 +7,7 @@
 import multiprocessing
 import os
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 from mmengine.fileio import get
 

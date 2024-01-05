@@ -3,7 +3,7 @@ import os.path as osp
 import warnings
 from typing import Optional, Sequence
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 from mmengine.fileio import get
 from mmengine.hooks import Hook

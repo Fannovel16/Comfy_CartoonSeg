@@ -4,7 +4,7 @@ import os.path as osp
 from collections import defaultdict
 from typing import Any, List, Tuple
 
-import mmengine.fileio as fileio
+import custom_mmengine_0102 as mmengine.fileio as fileio
 from mmengine.dataset import BaseDataset
 from mmengine.logging import print_log
 

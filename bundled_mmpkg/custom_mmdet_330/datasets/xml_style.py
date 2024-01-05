@@ -3,7 +3,7 @@ import os.path as osp
 import xml.etree.ElementTree as ET
 from typing import List, Optional, Union
 
-import mmcv
+import custom_mmcv_210 as mmcv
 from mmengine.fileio import get, get_local_path, list_from_file
 
 from custom_mmdet_330.registry import DATASETS

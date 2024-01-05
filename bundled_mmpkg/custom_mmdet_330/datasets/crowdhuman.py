@@ -5,7 +5,7 @@ import os.path as osp
 import warnings
 from typing import List, Union
 
-import mmcv
+import custom_mmcv_210 as mmcv
 from mmengine.dist import get_rank
 from mmengine.fileio import dump, get, get_text, load
 from mmengine.logging import print_log

@@ -2,7 +2,7 @@
 import warnings
 from typing import Optional
 
-import mmengine.fileio as fileio
+import custom_mmengine_0102 as mmengine.fileio as fileio
 import numpy as np
 
 import custom_mmcv_210 as mmcv

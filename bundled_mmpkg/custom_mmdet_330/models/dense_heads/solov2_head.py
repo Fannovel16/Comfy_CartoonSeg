@@ -2,7 +2,7 @@
 import warnings
 from typing import List, Optional, Tuple
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 import torch
 import torch.nn as nn

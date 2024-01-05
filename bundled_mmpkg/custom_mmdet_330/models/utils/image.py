@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import Union
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 import torch
 from torch import Tensor

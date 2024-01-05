@@ -5,7 +5,7 @@ import os.path as osp
 import tempfile
 from typing import Dict, Optional, Sequence, Tuple, Union
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 from mmengine.evaluator import BaseMetric
 from mmengine.fileio import dump, get_local_path, load

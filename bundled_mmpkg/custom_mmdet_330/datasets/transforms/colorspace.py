@@ -2,7 +2,7 @@
 import math
 from typing import Optional
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 from mmcv.transforms import BaseTransform
 from mmcv.transforms.utils import cache_randomness

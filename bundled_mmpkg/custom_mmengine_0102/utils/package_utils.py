@@ -9,7 +9,7 @@ def is_installed(package: str) -> bool:
     Args:
         package (str): Name of package to be checked.
     """
-    # When executing `import mmengine.runner`,
+    # When executing `import custom_mmengine_0102 as mmengine.runner`,
     # pkg_resources will be imported and it takes too much time.
     # Therefore, import it in function scope to save time.
     import importlib.util

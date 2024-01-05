@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 from typing import Optional, Union
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 from mmengine.fileio import get
 

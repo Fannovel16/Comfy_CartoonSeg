@@ -4,7 +4,7 @@ import os.path as osp
 import warnings
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple, Union
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import mmengine
 import numpy as np
 import torch.nn as nn

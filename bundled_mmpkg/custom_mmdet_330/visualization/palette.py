@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import List, Tuple, Union
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 from mmengine.utils import is_str
 

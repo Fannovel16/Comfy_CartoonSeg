@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 from mmcv.transforms import BaseTransform
 

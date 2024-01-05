@@ -2,7 +2,7 @@
 from typing import Dict, List, Optional, Tuple, Union
 
 import cv2
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 
 try:

@@ -4,4 +4,4 @@ from pathlib import Path
 here = Path(__file__).parent.resolve()
 sys.path.insert(0, str(Path(here, "src").resolve()))
 for pkg_name in ["bundled_mmpkg"]:
-    sys.path.append(str(Path(here, "src", pkg_name).resolve()))
+    sys.path.append(str(Path(here, pkg_name).resolve()))

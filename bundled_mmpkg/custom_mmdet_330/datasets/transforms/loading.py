@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import Optional, Tuple, Union
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 import pycocotools.mask as maskUtils
 import torch

@@ -14,7 +14,7 @@ class Timer:
 
     Examples:
         >>> import time
-        >>> import mmcv
+        >>> import custom_mmcv_210 as mmcv
         >>> with mmcv.Timer():
         >>>     # simulate a code block that will run for 1s
         >>>     time.sleep(1)
@@ -98,7 +98,7 @@ def check_time(timer_id):
 
     Examples:
         >>> import time
-        >>> import mmcv
+        >>> import custom_mmcv_210 as mmcv
         >>> for i in range(1, 6):
         >>>     # simulate a code block
         >>>     time.sleep(i)

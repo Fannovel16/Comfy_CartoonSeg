@@ -6,7 +6,7 @@ import tempfile
 from collections import OrderedDict
 from typing import Dict, Optional, Sequence
 
-import mmcv
+import custom_mmcv_210 as mmcv
 import numpy as np
 from mmengine.dist import is_main_process
 from mmengine.evaluator import BaseMetric
