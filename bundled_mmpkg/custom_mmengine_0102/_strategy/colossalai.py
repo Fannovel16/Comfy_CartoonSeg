@@ -23,7 +23,7 @@ except Exception as e:  # noqa: F841
 import torch
 import torch.nn as nn
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from custom_mmengine_0102 import mkdir_or_exist
 from custom_mmengine_0102._strategy import BaseStrategy
 from custom_mmengine_0102.device import get_device

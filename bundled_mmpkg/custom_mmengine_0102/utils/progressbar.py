@@ -19,7 +19,7 @@ class ProgressBar:
         file (callable): Progress bar output mode. Defaults to "sys.stdout".
 
     Examples:
-        >>> import mmengine
+        >>> import custom_mmengine_0102 as mmengine
         >>> import time
         >>> bar = mmengine.ProgressBar(10)
         >>> for i in range(10):

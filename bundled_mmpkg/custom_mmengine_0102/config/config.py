@@ -1225,7 +1225,7 @@ class Config:
                 else:
                     base_files = []
         elif file_format in ('.yml', '.yaml', '.json'):
-            import mmengine
+            import custom_mmengine_0102 as mmengine
             cfg_dict = mmengine.load(filename)
             base_files = cfg_dict.get(BASE_KEY, [])
         else:

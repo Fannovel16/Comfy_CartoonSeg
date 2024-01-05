@@ -11,7 +11,7 @@ import torch
 import torch.nn as nn
 from torch.optim import Optimizer
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from custom_mmengine_0102.config import Config, ConfigDict
 from custom_mmengine_0102.dist import (broadcast, get_dist_info, infer_launcher,
                            is_distributed)

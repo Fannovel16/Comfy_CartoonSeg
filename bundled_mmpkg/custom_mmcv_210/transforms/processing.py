@@ -5,7 +5,7 @@ import warnings
 from itertools import product
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple, Union
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 import numpy as np
 
 import custom_mmcv_210 as mmcv

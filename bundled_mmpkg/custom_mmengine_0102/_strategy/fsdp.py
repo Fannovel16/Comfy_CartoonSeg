@@ -18,7 +18,7 @@ from torch.distributed.fsdp.fully_sharded_data_parallel import (
 from torch.optim import Optimizer
 from torch.optim.lr_scheduler import LRScheduler
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from custom_mmengine_0102.config import Config, ConfigDict
 from custom_mmengine_0102.device import get_device
 from custom_mmengine_0102.dist import get_rank, is_main_process

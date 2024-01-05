@@ -2,7 +2,7 @@
 
 from typing import Any, Callable, Dict, List, Optional, Sequence, Union
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 import numpy as np
 
 from .base import BaseTransform

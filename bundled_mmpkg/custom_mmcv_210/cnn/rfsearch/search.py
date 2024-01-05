@@ -2,7 +2,7 @@
 import os
 from typing import Dict, Optional
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 import torch  # noqa
 import torch.nn as nn
 from custom_mmengine_0102.hooks import Hook

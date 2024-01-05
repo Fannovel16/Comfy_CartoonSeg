@@ -3,7 +3,7 @@ import copy
 import os.path as osp
 from typing import Callable, Dict, List, Optional, Sequence, Union
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 import custom_mmengine_0102.fileio as fileio
 import numpy as np
 from mmengine.dataset import BaseDataset, Compose

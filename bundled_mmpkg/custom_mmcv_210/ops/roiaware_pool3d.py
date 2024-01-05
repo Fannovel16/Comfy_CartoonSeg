@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import Any, Tuple, Union
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 import torch
 from torch import nn as nn
 from torch.autograd import Function

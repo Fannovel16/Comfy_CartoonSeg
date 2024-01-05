@@ -2,7 +2,7 @@
 import os.path
 from typing import Optional
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 
 from custom_mmdet_330.registry import DATASETS
 from .coco import CocoDataset

@@ -2,7 +2,7 @@
 from pathlib import Path
 from typing import List
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from mmengine.dataset import BaseDataset
 from mmengine.fileio import get_file_backend
 

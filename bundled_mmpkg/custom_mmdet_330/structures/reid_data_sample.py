@@ -2,7 +2,7 @@
 from numbers import Number
 from typing import Sequence, Union
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 import numpy as np
 import torch
 from mmengine.structures import BaseDataElement, LabelData

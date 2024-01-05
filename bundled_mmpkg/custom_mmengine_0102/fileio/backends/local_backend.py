@@ -6,7 +6,7 @@ from contextlib import contextmanager
 from pathlib import Path
 from typing import Generator, Iterator, Optional, Tuple, Union
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from .base import BaseStorageBackend
 
 

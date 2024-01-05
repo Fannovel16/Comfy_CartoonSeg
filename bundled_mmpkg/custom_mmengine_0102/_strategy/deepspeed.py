@@ -13,7 +13,7 @@ except ImportError:
 
 import torch.nn as nn
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from custom_mmengine_0102.dist import init_dist
 from custom_mmengine_0102.optim import BaseOptimWrapper, _ParamScheduler
 from custom_mmengine_0102.registry import (MODEL_WRAPPERS, OPTIM_WRAPPERS, OPTIMIZERS,

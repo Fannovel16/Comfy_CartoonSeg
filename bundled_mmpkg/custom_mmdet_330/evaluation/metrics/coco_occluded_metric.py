@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import Dict, List, Optional, Union
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 import numpy as np
 from mmengine.fileio import load
 from mmengine.logging import print_log

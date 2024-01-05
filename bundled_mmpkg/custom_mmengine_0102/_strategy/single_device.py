@@ -4,7 +4,7 @@ from typing import Callable, Dict, List, Optional, Union
 
 import torch.nn as nn
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from custom_mmengine_0102.device import get_device
 from custom_mmengine_0102.model import revert_sync_batchnorm
 from custom_mmengine_0102.optim import BaseOptimWrapper, _ParamScheduler

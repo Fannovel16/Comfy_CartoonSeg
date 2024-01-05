@@ -10,7 +10,7 @@ from typing import Callable, Dict, List, Optional, Union
 import torch.nn as nn
 from torch.utils.data import DataLoader
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from custom_mmengine_0102._strategy import BaseStrategy
 from custom_mmengine_0102.config import Config, ConfigDict
 from custom_mmengine_0102.dataset import worker_init_fn as default_worker_init_fn

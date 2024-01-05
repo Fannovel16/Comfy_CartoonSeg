@@ -3,7 +3,7 @@ import math
 import warnings
 from typing import Optional, no_type_check
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

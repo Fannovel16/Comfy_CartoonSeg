@@ -8,7 +8,7 @@ from collections import OrderedDict, defaultdict
 import numpy as np
 import torch
 
-import mmengine
+import custom_mmengine_0102 as mmengine
 from .parrots_wrapper import TORCH_VERSION, get_build_config, is_rocm_pytorch
 
 
