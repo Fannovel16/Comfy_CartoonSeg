@@ -6,7 +6,7 @@ from typing import Callable, Dict, List, Optional, Sequence, Union
 import custom_mmengine_0102 as mmengine
 import custom_mmengine_0102.fileio as fileio
 import numpy as np
-from mmengine.dataset import BaseDataset, Compose
+from custom_mmengine_0102.dataset import BaseDataset, Compose
 
 from custom_mmdet_330.registry import DATASETS
 

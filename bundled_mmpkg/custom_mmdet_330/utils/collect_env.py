@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.utils import get_git_hash
-from mmengine.utils.dl_utils import collect_env as collect_base_env
+from custom_mmengine_0102.utils import get_git_hash
+from custom_mmengine_0102.utils.dl_utils import collect_env as collect_base_env
 
 import mmdet
 

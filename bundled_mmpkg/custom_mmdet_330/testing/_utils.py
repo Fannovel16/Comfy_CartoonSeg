@@ -4,9 +4,9 @@ from os.path import dirname, exists, join
 
 import numpy as np
 import torch
-from mmengine.config import Config
-from mmengine.dataset import pseudo_collate
-from mmengine.structures import InstanceData, PixelData
+from custom_mmengine_0102.config import Config
+from custom_mmengine_0102.dataset import pseudo_collate
+from custom_mmengine_0102.structures import InstanceData, PixelData
 
 from custom_mmdet_330.utils.util_random import ensure_rng
 from ..registry import TASK_UTILS

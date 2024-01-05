@@ -5,7 +5,7 @@ from typing import List, Optional, Tuple
 import torch
 import torch.nn as nn
 from mmcv import ops
-from mmengine.model import BaseModule
+from custom_mmengine_0102.model import BaseModule
 from torch import Tensor
 
 from custom_mmdet_330.utils import ConfigType, OptMultiConfig

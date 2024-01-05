@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.hooks import Hook
+from custom_mmengine_0102.hooks import Hook
 
 from custom_mmdet_330.registry import HOOKS
 

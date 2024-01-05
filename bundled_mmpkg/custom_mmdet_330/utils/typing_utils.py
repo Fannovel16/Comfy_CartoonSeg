@@ -2,8 +2,8 @@
 """Collecting some commonly used type hint in mmdetection."""
 from typing import List, Optional, Sequence, Tuple, Union
 
-from mmengine.config import ConfigDict
-from mmengine.structures import InstanceData, PixelData
+from custom_mmengine_0102.config import ConfigDict
+from custom_mmengine_0102.structures import InstanceData, PixelData
 
 # TODO: Need to avoid circular import with assigner and sampler
 # Type hint of config data

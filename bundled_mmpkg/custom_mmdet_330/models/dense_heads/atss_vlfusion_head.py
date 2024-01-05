@@ -8,9 +8,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import Scale
 from mmcv.ops.modulated_deform_conv import ModulatedDeformConv2d
-from mmengine.config import ConfigDict
-from mmengine.model import BaseModel
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.config import ConfigDict
+from custom_mmengine_0102.model import BaseModel
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 try:

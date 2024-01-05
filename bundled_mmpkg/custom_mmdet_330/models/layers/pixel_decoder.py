@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import Conv2d, ConvModule
-from mmengine.model import BaseModule, ModuleList, caffe2_xavier_init
+from custom_mmengine_0102.model import BaseModule, ModuleList, caffe2_xavier_init
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

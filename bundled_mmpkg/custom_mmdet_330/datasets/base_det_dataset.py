@@ -2,9 +2,9 @@
 import os.path as osp
 from typing import List, Optional
 
-from mmengine.dataset import BaseDataset
-from mmengine.fileio import load
-from mmengine.utils import is_abs
+from custom_mmengine_0102.dataset import BaseDataset
+from custom_mmengine_0102.fileio import load
+from custom_mmengine_0102.utils import is_abs
 
 from ..registry import DATASETS
 

@@ -3,9 +3,9 @@ from collections import defaultdict
 from typing import List, Optional, Sequence
 
 import numpy as np
-from mmengine.evaluator import BaseMetric
-from mmengine.fileio import get_local_path
-from mmengine.logging import MMLogger
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.fileio import get_local_path
+from custom_mmengine_0102.logging import MMLogger
 
 from custom_mmdet_330.datasets.api_wrappers import COCO, COCOeval
 from custom_mmdet_330.registry import METRICS

@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from mmcv.cnn import build_norm_layer
-from mmengine.model import ModuleList
+from custom_mmengine_0102.model import ModuleList
 from torch import Tensor
 
 from .deformable_detr_layers import DeformableDetrTransformerEncoder

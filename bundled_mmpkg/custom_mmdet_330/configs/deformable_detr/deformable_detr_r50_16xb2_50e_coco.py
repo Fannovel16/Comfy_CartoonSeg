@@ -4,16 +4,16 @@
 # mmcv >= 2.0.1
 # mmengine >= 0.8.0
 
-from mmengine.config import read_base
+from custom_mmengine_0102.config import read_base
 
 with read_base():
     from .._base_.datasets.coco_detection import *
     from .._base_.default_runtime import *
 
 from mmcv.transforms import LoadImageFromFile, RandomChoice, RandomChoiceResize
-from mmengine.optim.optimizer import OptimWrapper
-from mmengine.optim.scheduler import MultiStepLR
-from mmengine.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop
+from custom_mmengine_0102.optim.optimizer import OptimWrapper
+from custom_mmengine_0102.optim.scheduler import MultiStepLR
+from custom_mmengine_0102.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop
 from torch.optim.adamw import AdamW
 
 from custom_mmdet_330.datasets.transforms import (LoadAnnotations, PackDetInputs,

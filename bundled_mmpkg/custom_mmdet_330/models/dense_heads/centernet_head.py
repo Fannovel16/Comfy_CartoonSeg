@@ -4,9 +4,9 @@ from typing import List, Optional, Tuple
 import torch
 import torch.nn as nn
 from mmcv.ops import batched_nms
-from mmengine.config import ConfigDict
-from mmengine.model import bias_init_with_prob, normal_init
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.config import ConfigDict
+from custom_mmengine_0102.model import bias_init_with_prob, normal_init
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

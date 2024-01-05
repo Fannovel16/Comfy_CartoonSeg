@@ -3,7 +3,7 @@ from typing import Tuple
 
 import torch
 import torch.nn as nn
-from mmengine.model import bias_init_with_prob
+from custom_mmengine_0102.model import bias_init_with_prob
 from torch import Tensor
 
 from custom_mmdet_330.models.layers.transformer import inverse_sigmoid

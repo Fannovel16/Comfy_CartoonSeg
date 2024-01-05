@@ -4,7 +4,7 @@ from typing import List, Optional, Tuple, Union
 
 import numpy as np
 import torch
-from mmengine.utils import is_tuple_of
+from custom_mmengine_0102.utils import is_tuple_of
 from torch import Tensor
 from torch.nn.modules.utils import _pair
 

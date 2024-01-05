@@ -5,7 +5,7 @@ from typing import Sequence, Union
 import custom_mmengine_0102 as mmengine
 import numpy as np
 import torch
-from mmengine.structures import BaseDataElement, LabelData
+from custom_mmengine_0102.structures import BaseDataElement, LabelData
 
 
 def format_label(value: Union[torch.Tensor, np.ndarray, Sequence, int],

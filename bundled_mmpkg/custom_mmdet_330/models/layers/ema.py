@@ -4,7 +4,7 @@ from typing import Optional
 
 import torch
 import torch.nn as nn
-from mmengine.model import ExponentialMovingAverage
+from custom_mmengine_0102.model import ExponentialMovingAverage
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

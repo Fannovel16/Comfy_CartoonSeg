@@ -4,7 +4,7 @@ from typing import List, Optional, Tuple
 import torch.nn as nn
 from mmcv.cnn import ConvModule
 from mmcv.ops import DeformConv2d
-from mmengine.model import normal_init
+from custom_mmengine_0102.model import normal_init
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

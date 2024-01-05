@@ -8,9 +8,9 @@ from typing import Dict, List, Optional, Sequence, Tuple, Union
 
 import custom_mmengine_0102 as mmengine
 import numpy as np
-from mmengine.dist import (all_gather_object, barrier, broadcast_object_list,
+from custom_mmengine_0102.dist import (all_gather_object, barrier, broadcast_object_list,
                            is_main_process)
-from mmengine.logging import MMLogger
+from custom_mmengine_0102.logging import MMLogger
 
 from custom_mmdet_330.registry import METRICS
 from custom_mmdet_330.structures.mask import encode_mask_results

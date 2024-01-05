@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.model import is_model_wrapper
-from mmengine.runner import ValLoop
+from custom_mmengine_0102.model import is_model_wrapper
+from custom_mmengine_0102.runner import ValLoop
 
 from custom_mmdet_330.registry import LOOPS
 

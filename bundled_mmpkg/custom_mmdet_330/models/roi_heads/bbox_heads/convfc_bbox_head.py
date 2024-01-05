@@ -3,7 +3,7 @@ from typing import Optional, Tuple, Union
 
 import torch.nn as nn
 from mmcv.cnn import ConvModule
-from mmengine.config import ConfigDict
+from custom_mmengine_0102.config import ConfigDict
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

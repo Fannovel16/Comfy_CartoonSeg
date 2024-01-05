@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.config import read_base
+from custom_mmengine_0102.config import read_base
 
 with read_base():
     from .._base_.datasets.mot_challenge import *

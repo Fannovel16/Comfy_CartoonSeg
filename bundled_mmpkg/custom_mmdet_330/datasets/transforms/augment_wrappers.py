@@ -4,7 +4,7 @@ from typing import List, Optional, Union
 import numpy as np
 from mmcv.transforms import RandomChoice
 from mmcv.transforms.utils import cache_randomness
-from mmengine.config import ConfigDict
+from custom_mmengine_0102.config import ConfigDict
 
 from custom_mmdet_330.registry import TRANSFORMS
 

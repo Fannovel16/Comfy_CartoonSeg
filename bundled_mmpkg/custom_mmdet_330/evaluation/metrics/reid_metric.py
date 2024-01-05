@@ -3,7 +3,7 @@ from typing import Optional, Sequence, Union
 
 import numpy as np
 import torch
-from mmengine.evaluator import BaseMetric
+from custom_mmengine_0102.evaluator import BaseMetric
 
 from custom_mmdet_330.registry import METRICS
 

@@ -4,7 +4,7 @@
 # mmcv >= 2.0.1
 # mmengine >= 0.8.0
 
-from mmengine.config import read_base
+from custom_mmengine_0102.config import read_base
 
 with read_base():
     from .mask_rcnn_x101_32x4d_fpn_2x_coco import *

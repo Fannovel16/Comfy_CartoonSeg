@@ -8,9 +8,9 @@ from typing import Dict, Optional, Sequence
 
 import custom_mmcv_210 as mmcv
 import numpy as np
-from mmengine.dist import is_main_process
-from mmengine.evaluator import BaseMetric
-from mmengine.logging import MMLogger
+from custom_mmengine_0102.dist import is_main_process
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.logging import MMLogger
 
 from custom_mmdet_330.registry import METRICS
 

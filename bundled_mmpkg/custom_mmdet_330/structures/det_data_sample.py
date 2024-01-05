@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import List, Optional
 
-from mmengine.structures import BaseDataElement, InstanceData, PixelData
+from custom_mmengine_0102.structures import BaseDataElement, InstanceData, PixelData
 
 
 class DetDataSample(BaseDataElement):
@@ -28,7 +28,7 @@ class DetDataSample(BaseDataElement):
     Examples:
          >>> import torch
          >>> import numpy as np
-         >>> from mmengine.structures import InstanceData
+         >>> from custom_mmengine_0102.structures import InstanceData
          >>> from custom_mmdet_330.structures import DetDataSample
 
          >>> data_sample = DetDataSample()

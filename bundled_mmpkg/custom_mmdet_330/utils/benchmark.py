@@ -10,12 +10,12 @@ import torch.nn as nn
 from mmcv.cnn import fuse_conv_bn
 # TODO need update
 # from mmcv.runner import wrap_fp16_model
-from mmengine import MMLogger
-from mmengine.config import Config
-from mmengine.device import get_max_cuda_memory
-from mmengine.dist import get_world_size
-from mmengine.runner import Runner, load_checkpoint
-from mmengine.utils.dl_utils import set_multi_processing
+from custom_mmengine_0102 import MMLogger
+from custom_mmengine_0102.config import Config
+from custom_mmengine_0102.device import get_max_cuda_memory
+from custom_mmengine_0102.dist import get_world_size
+from custom_mmengine_0102.runner import Runner, load_checkpoint
+from custom_mmengine_0102.utils.dl_utils import set_multi_processing
 from torch.nn.parallel import DistributedDataParallel
 
 from custom_mmdet_330.registry import DATASETS, MODELS

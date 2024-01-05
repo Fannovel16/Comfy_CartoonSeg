@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.utils.checkpoint as cp
 from mmcv.cnn import ConvModule
 from mmcv.cnn.bricks import DropPath
-from mmengine.model import BaseModule
+from custom_mmengine_0102.model import BaseModule
 
 from .se_layer import SELayer
 

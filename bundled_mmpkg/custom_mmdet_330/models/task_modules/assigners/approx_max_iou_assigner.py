@@ -2,8 +2,8 @@
 from typing import Optional, Union
 
 import torch
-from mmengine.config import ConfigDict
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.config import ConfigDict
+from custom_mmengine_0102.structures import InstanceData
 
 from custom_mmdet_330.registry import TASK_UTILS
 from .assign_result import AssignResult

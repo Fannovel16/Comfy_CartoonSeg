@@ -2,8 +2,8 @@
 from typing import List, Optional, Union
 
 import torch
-from mmengine import ConfigDict
-from mmengine.structures import InstanceData
+from custom_mmengine_0102 import ConfigDict
+from custom_mmengine_0102.structures import InstanceData
 from scipy.optimize import linear_sum_assignment
 from torch import Tensor
 

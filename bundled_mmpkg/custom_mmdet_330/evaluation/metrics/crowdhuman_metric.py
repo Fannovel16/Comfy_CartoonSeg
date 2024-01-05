@@ -8,9 +8,9 @@ from multiprocessing import Process, Queue
 from typing import Dict, List, Optional, Sequence, Union
 
 import numpy as np
-from mmengine.evaluator import BaseMetric
-from mmengine.fileio import dump, get_text, load
-from mmengine.logging import MMLogger
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.fileio import dump, get_text, load
+from custom_mmengine_0102.logging import MMLogger
 from scipy.sparse import csr_matrix
 from scipy.sparse.csgraph import maximum_bipartite_matching
 

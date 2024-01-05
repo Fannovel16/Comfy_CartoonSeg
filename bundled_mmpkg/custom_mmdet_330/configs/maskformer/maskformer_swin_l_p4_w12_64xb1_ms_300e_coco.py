@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.config import read_base
-from mmengine.optim.scheduler import LinearLR
+from custom_mmengine_0102.config import read_base
+from custom_mmengine_0102.optim.scheduler import LinearLR
 
 from custom_mmdet_330.models.backbones import SwinTransformer
 from custom_mmdet_330.models.layers import PixelDecoder

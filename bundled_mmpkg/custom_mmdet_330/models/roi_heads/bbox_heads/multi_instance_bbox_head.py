@@ -5,8 +5,8 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from mmcv.cnn import ConvModule
-from mmengine.config import ConfigDict
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.config import ConfigDict
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor, nn
 
 from custom_mmdet_330.models.roi_heads.bbox_heads.bbox_head import BBoxHead

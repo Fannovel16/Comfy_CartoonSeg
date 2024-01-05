@@ -3,7 +3,7 @@ import copy
 from typing import List
 
 import torch
-from mmengine.structures import PixelData
+from custom_mmengine_0102.structures import PixelData
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

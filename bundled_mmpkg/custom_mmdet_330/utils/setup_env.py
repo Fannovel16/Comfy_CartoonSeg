@@ -7,9 +7,9 @@ import warnings
 
 import cv2
 import torch.multiprocessing as mp
-from mmengine import DefaultScope
-from mmengine.logging import print_log
-from mmengine.utils import digit_version
+from custom_mmengine_0102 import DefaultScope
+from custom_mmengine_0102.logging import print_log
+from custom_mmengine_0102.utils import digit_version
 
 
 def setup_cache_size_limit_of_dynamo():

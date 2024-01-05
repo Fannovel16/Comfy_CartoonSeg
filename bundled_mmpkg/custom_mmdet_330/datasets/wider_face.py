@@ -2,9 +2,9 @@
 import os.path as osp
 import xml.etree.ElementTree as ET
 
-from mmengine.dist import is_main_process
-from mmengine.fileio import get_local_path, list_from_file
-from mmengine.utils import ProgressBar
+from custom_mmengine_0102.dist import is_main_process
+from custom_mmengine_0102.fileio import get_local_path, list_from_file
+from custom_mmengine_0102.utils import ProgressBar
 
 from custom_mmdet_330.registry import DATASETS
 from custom_mmdet_330.utils.typing_utils import List, Union

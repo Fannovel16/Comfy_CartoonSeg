@@ -7,8 +7,8 @@ import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule
 from mmcv.ops import point_sample, rel_roi_point_to_rel_img_point
-from mmengine.model import BaseModule
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.model import BaseModule
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.models.task_modules.samplers import SamplingResult

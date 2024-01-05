@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from mmcv.ops import RoIAlign, nms
-from mmengine.model.weight_init import PretrainedInit
+from custom_mmengine_0102.model.weight_init import PretrainedInit
 from torch.nn import BatchNorm2d
 
 from custom_mmdet_330.models.backbones.resnet import ResNet

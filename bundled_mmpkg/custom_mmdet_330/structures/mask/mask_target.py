@@ -21,7 +21,7 @@ def mask_target(pos_proposals_list, pos_assigned_gt_inds_list, gt_masks_list,
         Tensor: Mask target of each image, has shape (num_pos, w, h).
 
     Example:
-        >>> from mmengine.config import Config
+        >>> from custom_mmengine_0102.config import Config
         >>> import mmdet
         >>> from custom_mmdet_330.data_elements.mask import BitmapMasks
         >>> from custom_mmdet_330.data_elements.mask.mask_target import *
@@ -78,7 +78,7 @@ def mask_target_single(pos_proposals, pos_assigned_gt_inds, gt_masks, cfg):
         Tensor: Mask target of each positive proposals in the image.
 
     Example:
-        >>> from mmengine.config import Config
+        >>> from custom_mmengine_0102.config import Config
         >>> import mmdet
         >>> from custom_mmdet_330.data_elements.mask import BitmapMasks
         >>> from custom_mmdet_330.data_elements.mask.mask_target import *  # NOQA

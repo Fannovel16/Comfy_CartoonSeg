@@ -4,7 +4,7 @@ from typing import List, Optional, Sequence, Tuple
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule, Scale
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

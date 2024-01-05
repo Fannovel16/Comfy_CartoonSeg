@@ -2,7 +2,7 @@
 import torch.nn as nn
 from mmcv.cnn import ConvModule, build_upsample_layer
 from mmcv.ops.carafe import CARAFEPack
-from mmengine.model import BaseModule, ModuleList, xavier_init
+from custom_mmengine_0102.model import BaseModule, ModuleList, xavier_init
 
 from custom_mmdet_330.registry import MODELS
 

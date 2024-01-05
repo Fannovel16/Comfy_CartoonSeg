@@ -2,7 +2,7 @@
 import numpy as np
 import pycocotools.mask as mask_util
 import torch
-from mmengine.utils import slice_list
+from custom_mmengine_0102.utils import slice_list
 
 
 def split_combined_polys(polys, poly_lens, polys_per_mask):

@@ -3,7 +3,7 @@ from typing import List, Optional, Sequence
 
 import numpy as np
 import torch
-from mmengine.structures import BaseDataElement
+from custom_mmengine_0102.structures import BaseDataElement
 
 from .det_data_sample import DetDataSample
 
@@ -24,7 +24,7 @@ class TrackDataSample(BaseDataElement):
 
     Examples:
         >>> import torch
-        >>> from mmengine.structures import InstanceData
+        >>> from custom_mmengine_0102.structures import InstanceData
         >>> from custom_mmdet_330.structures import DetDataSample, TrackDataSample
         >>> track_data_sample = TrackDataSample()
         >>> # set the 1st frame

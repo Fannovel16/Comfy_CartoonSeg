@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.hooks import Hook
-from mmengine.model.wrappers import is_model_wrapper
+from custom_mmengine_0102.hooks import Hook
+from custom_mmengine_0102.model.wrappers import is_model_wrapper
 
 from custom_mmdet_330.registry import HOOKS
 

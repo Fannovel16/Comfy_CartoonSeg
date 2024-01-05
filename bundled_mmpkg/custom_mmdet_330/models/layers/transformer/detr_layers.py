@@ -4,8 +4,8 @@ from typing import Union
 import torch
 from mmcv.cnn import build_norm_layer
 from mmcv.cnn.bricks.transformer import FFN, MultiheadAttention
-from mmengine import ConfigDict
-from mmengine.model import BaseModule, ModuleList
+from custom_mmengine_0102 import ConfigDict
+from custom_mmengine_0102.model import BaseModule, ModuleList
 from torch import Tensor
 
 from custom_mmdet_330.utils import ConfigType, OptConfigType

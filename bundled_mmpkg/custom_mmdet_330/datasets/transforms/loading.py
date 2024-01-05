@@ -8,8 +8,8 @@ import torch
 from mmcv.transforms import BaseTransform
 from mmcv.transforms import LoadAnnotations as MMCV_LoadAnnotations
 from mmcv.transforms import LoadImageFromFile
-from mmengine.fileio import get
-from mmengine.structures import BaseDataElement
+from custom_mmengine_0102.fileio import get
+from custom_mmengine_0102.structures import BaseDataElement
 
 from custom_mmdet_330.registry import TRANSFORMS
 from custom_mmdet_330.structures.bbox import get_box_type

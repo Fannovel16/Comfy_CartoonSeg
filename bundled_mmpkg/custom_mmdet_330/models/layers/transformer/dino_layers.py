@@ -3,7 +3,7 @@ import warnings
 from typing import Tuple, Union
 
 import torch
-from mmengine.model import BaseModule
+from custom_mmengine_0102.model import BaseModule
 from torch import Tensor, nn
 
 from custom_mmdet_330.structures import SampleList

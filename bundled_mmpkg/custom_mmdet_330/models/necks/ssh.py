@@ -4,7 +4,7 @@ from typing import List, Tuple
 import torch
 import torch.nn.functional as F
 from mmcv.cnn import ConvModule
-from mmengine.model import BaseModule
+from custom_mmengine_0102.model import BaseModule
 
 from custom_mmdet_330.registry import MODELS
 from custom_mmdet_330.utils import ConfigType, OptConfigType, OptMultiConfig

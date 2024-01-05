@@ -3,9 +3,9 @@ import json
 from typing import List
 
 import torch.nn as nn
-from mmengine.dist import get_dist_info
-from mmengine.logging import MMLogger
-from mmengine.optim import DefaultOptimWrapperConstructor
+from custom_mmengine_0102.dist import get_dist_info
+from custom_mmengine_0102.logging import MMLogger
+from custom_mmengine_0102.optim import DefaultOptimWrapperConstructor
 
 from custom_mmdet_330.registry import OPTIM_WRAPPER_CONSTRUCTORS
 

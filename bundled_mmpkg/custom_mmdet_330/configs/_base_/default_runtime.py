@@ -1,8 +1,8 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.hooks import (CheckpointHook, DistSamplerSeedHook, IterTimerHook,
+from custom_mmengine_0102.hooks import (CheckpointHook, DistSamplerSeedHook, IterTimerHook,
                             LoggerHook, ParamSchedulerHook)
-from mmengine.runner import LogProcessor
-from mmengine.visualization import LocalVisBackend
+from custom_mmengine_0102.runner import LogProcessor
+from custom_mmengine_0102.visualization import LocalVisBackend
 
 from custom_mmdet_330.engine.hooks import DetVisualizationHook
 from custom_mmdet_330.visualization import DetLocalVisualizer

@@ -2,7 +2,7 @@
 import copy
 import warnings
 
-from mmengine.config import ConfigDict
+from custom_mmengine_0102.config import ConfigDict
 
 
 def compat_cfg(cfg):

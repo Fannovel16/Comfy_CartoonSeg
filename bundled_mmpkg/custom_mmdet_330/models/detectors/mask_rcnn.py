@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.config import ConfigDict
+from custom_mmengine_0102.config import ConfigDict
 
 from custom_mmdet_330.registry import MODELS
 from custom_mmdet_330.utils import OptConfigType, OptMultiConfig

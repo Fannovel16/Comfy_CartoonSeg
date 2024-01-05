@@ -2,7 +2,7 @@
 from typing import Optional
 
 import numpy as np
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS, TASK_UTILS

@@ -3,7 +3,7 @@ from collections import OrderedDict
 from typing import Sequence
 
 import torch
-from mmengine.model import BaseModel
+from custom_mmengine_0102.model import BaseModel
 from torch import nn
 
 try:

@@ -3,7 +3,7 @@ from abc import ABCMeta, abstractmethod
 from typing import Dict, List, Tuple, Union
 
 import torch
-from mmengine.model import BaseModel
+from custom_mmengine_0102.model import BaseModel
 from torch import Tensor
 
 from custom_mmdet_330.structures import DetDataSample, OptSampleList, SampleList

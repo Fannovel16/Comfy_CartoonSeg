@@ -5,7 +5,7 @@ import torch
 from mmcv.cnn import build_norm_layer
 from mmcv.cnn.bricks.transformer import FFN, MultiheadAttention
 from mmcv.ops import MultiScaleDeformableAttention
-from mmengine.model import ModuleList
+from custom_mmengine_0102.model import ModuleList
 from torch import Tensor, nn
 
 from .detr_layers import (DetrTransformerDecoder, DetrTransformerDecoderLayer,

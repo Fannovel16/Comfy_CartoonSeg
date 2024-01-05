@@ -2,7 +2,7 @@
 from abc import ABCMeta
 from typing import List, Optional, Tuple
 
-from mmengine.model import BaseModule
+from custom_mmengine_0102.model import BaseModule
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS, TASK_UTILS

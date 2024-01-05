@@ -3,7 +3,7 @@ import warnings
 
 import torch.nn as nn
 from mmcv.cnn import build_conv_layer, build_norm_layer
-from mmengine.model import BaseModule, ModuleList, Sequential
+from custom_mmengine_0102.model import BaseModule, ModuleList, Sequential
 from torch.nn.modules.batchnorm import _BatchNorm
 
 from custom_mmdet_330.registry import MODELS

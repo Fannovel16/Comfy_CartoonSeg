@@ -7,7 +7,7 @@ import torch
 import torch.distributed as dist
 import torch.nn as nn
 import torch.nn.functional as F
-from mmengine.logging import print_log
+from custom_mmengine_0102.logging import print_log
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

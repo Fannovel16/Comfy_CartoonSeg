@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from typing import List, Optional, Union
 
 import custom_mmcv_210 as mmcv
-from mmengine.fileio import get, get_local_path, list_from_file
+from custom_mmengine_0102.fileio import get, get_local_path, list_from_file
 
 from custom_mmdet_330.registry import DATASETS
 from .base_det_dataset import BaseDetDataset

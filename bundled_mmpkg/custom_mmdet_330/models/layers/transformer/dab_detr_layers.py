@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 from mmcv.cnn import build_norm_layer
 from mmcv.cnn.bricks.transformer import FFN
-from mmengine.model import ModuleList
+from custom_mmengine_0102.model import ModuleList
 from torch import Tensor
 
 from .detr_layers import (DetrTransformerDecoder, DetrTransformerDecoderLayer,

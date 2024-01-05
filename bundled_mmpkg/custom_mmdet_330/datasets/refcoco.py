@@ -5,7 +5,7 @@ import random
 from typing import Dict, List
 
 import custom_mmengine_0102 as mmengine
-from mmengine.dataset import BaseDataset
+from custom_mmengine_0102.dataset import BaseDataset
 
 from custom_mmdet_330.registry import DATASETS
 

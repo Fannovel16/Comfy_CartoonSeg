@@ -3,8 +3,8 @@ from collections import defaultdict
 from typing import Dict, List, Optional, Sequence
 
 import numpy as np
-from mmengine.evaluator import BaseMetric
-from mmengine.logging import MMLogger
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.logging import MMLogger
 
 from custom_mmdet_330.registry import METRICS
 from ..functional import bbox_overlaps

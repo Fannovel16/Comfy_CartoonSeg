@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.config import read_base
+from custom_mmengine_0102.config import read_base
 
 with read_base():
     from .._base_.models.faster_rcnn_r50_fpn import *
@@ -7,10 +7,10 @@ with read_base():
     from .._base_.default_runtime import *
 
 from mmcv.ops import RoIAlign
-from mmengine.hooks import LoggerHook, SyncBuffersHook
-from mmengine.model.weight_init import PretrainedInit
-from mmengine.optim import MultiStepLR, OptimWrapper
-from mmengine.runner.runner import EpochBasedTrainLoop, TestLoop, ValLoop
+from custom_mmengine_0102.hooks import LoggerHook, SyncBuffersHook
+from custom_mmengine_0102.model.weight_init import PretrainedInit
+from custom_mmengine_0102.optim import MultiStepLR, OptimWrapper
+from custom_mmengine_0102.runner.runner import EpochBasedTrainLoop, TestLoop, ValLoop
 from torch.nn.modules.batchnorm import BatchNorm2d
 from torch.nn.modules.normalization import GroupNorm
 from torch.optim import SGD

@@ -6,10 +6,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import ConvModule, Scale
 from mmcv.ops import deform_conv2d
-from mmengine import MessageHub
-from mmengine.config import ConfigDict
-from mmengine.model import bias_init_with_prob, normal_init
-from mmengine.structures import InstanceData
+from custom_mmengine_0102 import MessageHub
+from custom_mmengine_0102.config import ConfigDict
+from custom_mmengine_0102.model import bias_init_with_prob, normal_init
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS, TASK_UTILS

@@ -2,7 +2,7 @@
 from collections.abc import Sequence
 
 import numpy as np
-from mmengine.logging import print_log
+from custom_mmengine_0102.logging import print_log
 from terminaltables import AsciiTable
 
 from .bbox_overlaps import bbox_overlaps

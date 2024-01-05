@@ -2,7 +2,7 @@
 import os.path as osp
 from typing import List
 
-from mmengine import fileio
+from custom_mmengine_0102 import fileio
 
 from custom_mmdet_330.registry import DATASETS
 from .base_semseg_dataset import BaseSegDataset

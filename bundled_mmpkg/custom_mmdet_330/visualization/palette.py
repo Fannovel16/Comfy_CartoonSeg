@@ -3,7 +3,7 @@ from typing import List, Tuple, Union
 
 import custom_mmcv_210 as mmcv
 import numpy as np
-from mmengine.utils import is_str
+from custom_mmengine_0102.utils import is_str
 
 
 def palette_val(palette: List[tuple]) -> List[tuple]:

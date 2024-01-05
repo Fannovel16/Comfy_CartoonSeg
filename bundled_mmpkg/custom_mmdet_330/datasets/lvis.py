@@ -3,7 +3,7 @@ import copy
 import warnings
 from typing import List
 
-from mmengine.fileio import get_local_path
+from custom_mmengine_0102.fileio import get_local_path
 
 from custom_mmdet_330.registry import DATASETS
 from .coco import CocoDataset

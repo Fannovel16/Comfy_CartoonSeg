@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
-from mmengine.structures import BaseDataElement
+from custom_mmengine_0102.structures import BaseDataElement
 from scipy.optimize import linear_sum_assignment
 
 from custom_mmdet_330.registry import TASK_UTILS

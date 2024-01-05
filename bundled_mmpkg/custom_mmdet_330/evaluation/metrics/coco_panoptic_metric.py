@@ -7,9 +7,9 @@ from typing import Dict, Optional, Sequence, Tuple, Union
 
 import custom_mmcv_210 as mmcv
 import numpy as np
-from mmengine.evaluator import BaseMetric
-from mmengine.fileio import dump, get_local_path, load
-from mmengine.logging import MMLogger, print_log
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.fileio import dump, get_local_path, load
+from custom_mmengine_0102.logging import MMLogger, print_log
 from terminaltables import AsciiTable
 
 from custom_mmdet_330.datasets.api_wrappers import COCOPanoptic

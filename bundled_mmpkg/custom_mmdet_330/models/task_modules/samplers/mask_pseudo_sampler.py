@@ -3,7 +3,7 @@
 https://github.com/ZwwWayne/K-Net/blob/main/knet/det/mask_pseudo_sampler.py."""
 
 import torch
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 
 from custom_mmdet_330.registry import TASK_UTILS
 from ..assigners import AssignResult

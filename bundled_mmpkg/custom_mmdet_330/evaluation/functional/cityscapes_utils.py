@@ -10,7 +10,7 @@ from typing import Optional, Union
 
 import custom_mmcv_210 as mmcv
 import numpy as np
-from mmengine.fileio import get
+from custom_mmengine_0102.fileio import get
 
 try:
     import cityscapesscripts.evaluation.evalInstanceLevelSemanticLabeling as CSEval  # noqa: E501

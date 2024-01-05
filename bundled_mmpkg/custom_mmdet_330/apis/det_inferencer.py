@@ -9,14 +9,14 @@ import custom_mmengine_0102 as mmengine
 import numpy as np
 import torch.nn as nn
 from mmcv.transforms import LoadImageFromFile
-from mmengine.dataset import Compose
-from mmengine.fileio import (get_file_backend, isdir, join_path,
+from custom_mmengine_0102.dataset import Compose
+from custom_mmengine_0102.fileio import (get_file_backend, isdir, join_path,
                              list_dir_or_file)
-from mmengine.infer.infer import BaseInferencer, ModelType
-from mmengine.model.utils import revert_sync_batchnorm
-from mmengine.registry import init_default_scope
-from mmengine.runner.checkpoint import _load_checkpoint_to_model
-from mmengine.visualization import Visualizer
+from custom_mmengine_0102.infer.infer import BaseInferencer, ModelType
+from custom_mmengine_0102.model.utils import revert_sync_batchnorm
+from custom_mmengine_0102.registry import init_default_scope
+from custom_mmengine_0102.runner.checkpoint import _load_checkpoint_to_model
+from custom_mmengine_0102.visualization import Visualizer
 from rich.progress import track
 
 from custom_mmdet_330.evaluation import INSTANCE_OFFSET

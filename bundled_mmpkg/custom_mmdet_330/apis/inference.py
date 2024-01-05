@@ -9,11 +9,11 @@ import torch
 import torch.nn as nn
 from mmcv.ops import RoIPool
 from mmcv.transforms import Compose
-from mmengine.config import Config
-from mmengine.dataset import default_collate
-from mmengine.model.utils import revert_sync_batchnorm
-from mmengine.registry import init_default_scope
-from mmengine.runner import load_checkpoint
+from custom_mmengine_0102.config import Config
+from custom_mmengine_0102.dataset import default_collate
+from custom_mmengine_0102.model.utils import revert_sync_batchnorm
+from custom_mmengine_0102.registry import init_default_scope
+from custom_mmengine_0102.runner import load_checkpoint
 
 from custom_mmdet_330.registry import DATASETS
 from custom_mmdet_330.utils import ConfigType

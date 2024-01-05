@@ -7,9 +7,9 @@ import warnings
 from typing import Union
 
 import torch
-from mmengine.config import Config, ConfigDict
-from mmengine.logging import print_log
-from mmengine.utils import scandir
+from custom_mmengine_0102.config import Config, ConfigDict
+from custom_mmengine_0102.logging import print_log
+from custom_mmengine_0102.utils import scandir
 
 IMG_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.ppm', '.bmp', '.pgm', '.tif',
                   '.tiff', '.webp')

@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.config import read_base
-from mmengine.model.weight_init import PretrainedInit
+from custom_mmengine_0102.config import read_base
+from custom_mmengine_0102.model.weight_init import PretrainedInit
 
 from custom_mmdet_330.models import SwinTransformer
 

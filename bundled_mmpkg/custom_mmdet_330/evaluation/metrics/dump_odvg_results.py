@@ -2,8 +2,8 @@
 from typing import Any, Optional, Sequence
 
 from mmcv.ops import batched_nms
-from mmengine.evaluator import BaseMetric
-from mmengine.logging import print_log
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.logging import print_log
 
 from custom_mmdet_330.registry import METRICS
 

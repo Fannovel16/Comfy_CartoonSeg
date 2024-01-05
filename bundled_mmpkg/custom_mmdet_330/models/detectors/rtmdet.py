@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
-from mmengine.dist import get_world_size
-from mmengine.logging import print_log
+from custom_mmengine_0102.dist import get_world_size
+from custom_mmengine_0102.logging import print_log
 
 from custom_mmdet_330.registry import MODELS
 from custom_mmdet_330.utils import ConfigType, OptConfigType, OptMultiConfig

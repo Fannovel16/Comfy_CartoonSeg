@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import ConvModule
 from mmcv.ops.merge_cells import ConcatCell
-from mmengine.model import BaseModule, caffe2_xavier_init
+from custom_mmengine_0102.model import BaseModule, caffe2_xavier_init
 
 from custom_mmdet_330.registry import MODELS
 

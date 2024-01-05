@@ -5,8 +5,8 @@ from collections import defaultdict
 from typing import Any, List, Tuple
 
 import custom_mmengine_0102.fileio as fileio
-from mmengine.dataset import BaseDataset
-from mmengine.logging import print_log
+from custom_mmengine_0102.dataset import BaseDataset
+from custom_mmengine_0102.logging import print_log
 
 from custom_mmdet_330.datasets.api_wrappers import COCO
 from custom_mmdet_330.registry import DATASETS

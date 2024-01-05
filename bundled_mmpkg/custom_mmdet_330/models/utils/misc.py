@@ -4,8 +4,8 @@ from typing import List, Optional, Sequence, Tuple, Union
 
 import numpy as np
 import torch
-from mmengine.structures import InstanceData
-from mmengine.utils import digit_version
+from custom_mmengine_0102.structures import InstanceData
+from custom_mmengine_0102.utils import digit_version
 from six.moves import map, zip
 from torch import Tensor
 from torch.autograd import Function

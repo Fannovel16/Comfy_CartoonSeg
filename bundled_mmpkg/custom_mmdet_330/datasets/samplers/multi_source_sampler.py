@@ -4,8 +4,8 @@ from typing import Iterator, List, Optional, Sized, Union
 
 import numpy as np
 import torch
-from mmengine.dataset import BaseDataset
-from mmengine.dist import get_dist_info, sync_random_seed
+from custom_mmengine_0102.dataset import BaseDataset
+from custom_mmengine_0102.dist import get_dist_info, sync_random_seed
 from torch.utils.data import Sampler
 
 from custom_mmdet_330.registry import DATA_SAMPLERS

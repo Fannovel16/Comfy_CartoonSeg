@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import custom_mmcv_210 as mmcv
 import custom_mmengine_0102 as mmengine
-from mmengine.utils import digit_version
+from custom_mmengine_0102.utils import digit_version
 
 from .version import __version__, version_info
 

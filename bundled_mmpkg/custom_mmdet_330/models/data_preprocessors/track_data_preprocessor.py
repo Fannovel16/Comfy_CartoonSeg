@@ -4,7 +4,7 @@ from typing import Dict, List, Optional, Sequence, Union
 import numpy as np
 import torch
 import torch.nn.functional as F
-from mmengine.model.utils import stack_batch
+from custom_mmengine_0102.model.utils import stack_batch
 
 from custom_mmdet_330.models.utils.misc import samplelist_boxtype2tensor
 from custom_mmdet_330.registry import MODELS

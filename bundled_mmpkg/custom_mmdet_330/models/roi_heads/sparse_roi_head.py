@@ -2,8 +2,8 @@
 from typing import List, Tuple
 
 import torch
-from mmengine.config import ConfigDict
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.config import ConfigDict
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.models.task_modules.samplers import PseudoSampler

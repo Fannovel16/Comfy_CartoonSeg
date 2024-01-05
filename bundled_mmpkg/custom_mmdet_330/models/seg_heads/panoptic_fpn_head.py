@@ -4,7 +4,7 @@ from typing import Dict, Tuple, Union
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmengine.model import ModuleList
+from custom_mmengine_0102.model import ModuleList
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

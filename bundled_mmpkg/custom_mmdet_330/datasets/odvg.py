@@ -3,7 +3,7 @@ import json
 import os.path as osp
 from typing import List, Optional
 
-from mmengine.fileio import get_local_path
+from custom_mmengine_0102.fileio import get_local_path
 
 from custom_mmdet_330.registry import DATASETS
 from .base_det_dataset import BaseDetDataset

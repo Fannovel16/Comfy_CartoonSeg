@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.optim.optimizer.optimizer_wrapper import OptimWrapper
-from mmengine.optim.scheduler.lr_scheduler import LinearLR, MultiStepLR
-from mmengine.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop
+from custom_mmengine_0102.optim.optimizer.optimizer_wrapper import OptimWrapper
+from custom_mmengine_0102.optim.scheduler.lr_scheduler import LinearLR, MultiStepLR
+from custom_mmengine_0102.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop
 from torch.optim.sgd import SGD
 
 # training schedule for 1x

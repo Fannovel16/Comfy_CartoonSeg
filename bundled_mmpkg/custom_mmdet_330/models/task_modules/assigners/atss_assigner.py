@@ -3,7 +3,7 @@ import warnings
 from typing import List, Optional
 
 import torch
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.registry import TASK_UTILS

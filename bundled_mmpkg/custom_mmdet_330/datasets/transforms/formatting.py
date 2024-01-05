@@ -4,7 +4,7 @@ from typing import Optional, Sequence
 import numpy as np
 from mmcv.transforms import to_tensor
 from mmcv.transforms.base import BaseTransform
-from mmengine.structures import InstanceData, PixelData
+from custom_mmengine_0102.structures import InstanceData, PixelData
 
 from custom_mmdet_330.registry import TRANSFORMS
 from custom_mmdet_330.structures import DetDataSample, ReIDDataSample, TrackDataSample

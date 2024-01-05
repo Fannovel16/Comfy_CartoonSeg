@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from mmcv.cnn import ConvModule, Linear
-from mmengine.model import ModuleList
+from custom_mmengine_0102.model import ModuleList
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

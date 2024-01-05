@@ -9,12 +9,12 @@ import torch.nn.functional as F
 import torch.utils.checkpoint as cp
 from mmcv.cnn import build_norm_layer
 from mmcv.cnn.bricks.transformer import FFN, build_dropout
-from mmengine.logging import MMLogger
-from mmengine.model import BaseModule, ModuleList
-from mmengine.model.weight_init import (constant_init, trunc_normal_,
+from custom_mmengine_0102.logging import MMLogger
+from custom_mmengine_0102.model import BaseModule, ModuleList
+from custom_mmengine_0102.model.weight_init import (constant_init, trunc_normal_,
                                         trunc_normal_init)
-from mmengine.runner.checkpoint import CheckpointLoader
-from mmengine.utils import to_2tuple
+from custom_mmengine_0102.runner.checkpoint import CheckpointLoader
+from custom_mmengine_0102.utils import to_2tuple
 
 from custom_mmdet_330.registry import MODELS
 from ..layers import PatchEmbed, PatchMerging

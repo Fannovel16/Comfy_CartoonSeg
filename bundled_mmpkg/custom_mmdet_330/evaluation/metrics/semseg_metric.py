@@ -6,10 +6,10 @@ from typing import Dict, Optional, Sequence, Union
 import numpy as np
 import torch
 from mmcv import imwrite
-from mmengine.dist import is_main_process
-from mmengine.evaluator import BaseMetric
-from mmengine.logging import MMLogger, print_log
-from mmengine.utils import mkdir_or_exist
+from custom_mmengine_0102.dist import is_main_process
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.logging import MMLogger, print_log
+from custom_mmengine_0102.utils import mkdir_or_exist
 from PIL import Image
 
 try:

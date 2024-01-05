@@ -6,7 +6,7 @@ from typing import List, Optional, Union
 import numpy as np
 import torch
 from mmcv.ops import nms
-from mmengine.config import ConfigDict
+from custom_mmengine_0102.config import ConfigDict
 from torch import Tensor
 
 from custom_mmdet_330.structures.bbox import bbox_mapping_back

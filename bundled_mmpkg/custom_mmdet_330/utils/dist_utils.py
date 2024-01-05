@@ -7,7 +7,7 @@ from collections import OrderedDict
 import numpy as np
 import torch
 import torch.distributed as dist
-from mmengine.dist import get_dist_info
+from custom_mmengine_0102.dist import get_dist_info
 from torch._utils import (_flatten_dense_tensors, _take_tensors,
                           _unflatten_dense_tensors)
 

@@ -4,12 +4,12 @@
 # mmcv >= 2.0.1
 # mmengine >= 0.8.0
 
-from mmengine.config import read_base
+from custom_mmengine_0102.config import read_base
 
 with read_base():
     from .mask_rcnn_r18_fpn_8xb8_amp_lsj_200e_coco import *
 
-from mmengine.model.weight_init import PretrainedInit
+from custom_mmengine_0102.model.weight_init import PretrainedInit
 
 model = dict(
     backbone=dict(

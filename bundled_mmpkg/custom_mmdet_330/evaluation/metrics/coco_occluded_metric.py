@@ -3,8 +3,8 @@ from typing import Dict, List, Optional, Union
 
 import custom_mmengine_0102 as mmengine
 import numpy as np
-from mmengine.fileio import load
-from mmengine.logging import print_log
+from custom_mmengine_0102.fileio import load
+from custom_mmengine_0102.logging import print_log
 from pycocotools import mask as coco_mask
 from terminaltables import AsciiTable
 

@@ -3,7 +3,7 @@ from typing import Optional, Tuple
 
 import numpy as np
 import torch
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 
 try:
     import motmetrics

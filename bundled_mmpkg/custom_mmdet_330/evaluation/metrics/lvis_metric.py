@@ -9,12 +9,12 @@ from typing import Dict, List, Optional, Sequence, Union
 
 import numpy as np
 import torch
-from mmengine.dist import (all_gather_object, broadcast_object_list,
+from custom_mmengine_0102.dist import (all_gather_object, broadcast_object_list,
                            is_main_process)
-from mmengine.evaluator import BaseMetric
-from mmengine.evaluator.metric import _to_cpu
-from mmengine.fileio import get_local_path
-from mmengine.logging import MMLogger, print_log
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.evaluator.metric import _to_cpu
+from custom_mmengine_0102.fileio import get_local_path
+from custom_mmengine_0102.logging import MMLogger, print_log
 from terminaltables import AsciiTable
 
 from custom_mmdet_330.registry import METRICS

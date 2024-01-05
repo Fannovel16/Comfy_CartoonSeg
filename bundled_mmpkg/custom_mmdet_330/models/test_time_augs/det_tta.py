@@ -3,9 +3,9 @@ from typing import List, Tuple
 
 import torch
 from mmcv.ops import batched_nms
-from mmengine.model import BaseTTAModel
-from mmengine.registry import MODELS
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.model import BaseTTAModel
+from custom_mmengine_0102.registry import MODELS
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.structures import DetDataSample

@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmengine.utils import digit_version
+from custom_mmengine_0102.utils import digit_version
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

@@ -4,17 +4,17 @@
 # mmcv >= 2.0.1
 # mmengine >= 0.8.0
 
-from mmengine.config import read_base
+from custom_mmengine_0102.config import read_base
 
 with read_base():
     from .._base_.default_runtime import *
 
 from mmcv.transforms import RandomResize
-from mmengine.dataset import RepeatDataset
-from mmengine.dataset.sampler import DefaultSampler
-from mmengine.optim import OptimWrapper
-from mmengine.optim.scheduler.lr_scheduler import LinearLR, MultiStepLR
-from mmengine.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop
+from custom_mmengine_0102.dataset import RepeatDataset
+from custom_mmengine_0102.dataset.sampler import DefaultSampler
+from custom_mmengine_0102.optim import OptimWrapper
+from custom_mmengine_0102.optim.scheduler.lr_scheduler import LinearLR, MultiStepLR
+from custom_mmengine_0102.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop
 from torch.optim import SGD
 
 from custom_mmdet_330.datasets import AspectRatioBatchSampler, CocoDataset

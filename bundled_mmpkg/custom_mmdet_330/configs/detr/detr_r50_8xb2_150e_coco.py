@@ -1,11 +1,11 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from mmcv.transforms import RandomChoice, RandomChoiceResize
 from mmcv.transforms.loading import LoadImageFromFile
-from mmengine.config import read_base
-from mmengine.model.weight_init import PretrainedInit
-from mmengine.optim.optimizer.optimizer_wrapper import OptimWrapper
-from mmengine.optim.scheduler.lr_scheduler import MultiStepLR
-from mmengine.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop
+from custom_mmengine_0102.config import read_base
+from custom_mmengine_0102.model.weight_init import PretrainedInit
+from custom_mmengine_0102.optim.optimizer.optimizer_wrapper import OptimWrapper
+from custom_mmengine_0102.optim.scheduler.lr_scheduler import MultiStepLR
+from custom_mmengine_0102.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop
 from torch.nn.modules.activation import ReLU
 from torch.nn.modules.batchnorm import BatchNorm2d
 from torch.optim.adamw import AdamW

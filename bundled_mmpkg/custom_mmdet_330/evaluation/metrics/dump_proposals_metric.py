@@ -3,11 +3,11 @@ import os
 import os.path as osp
 from typing import Optional, Sequence
 
-from mmengine.dist import is_main_process
-from mmengine.evaluator import BaseMetric
-from mmengine.fileio import dump
-from mmengine.logging import MMLogger
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.dist import is_main_process
+from custom_mmengine_0102.evaluator import BaseMetric
+from custom_mmengine_0102.fileio import dump
+from custom_mmengine_0102.logging import MMLogger
+from custom_mmengine_0102.structures import InstanceData
 
 from custom_mmdet_330.registry import METRICS
 

@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from mmcv.transforms import LoadImageFromFile
-from mmengine.dataset.sampler import DefaultSampler
+from custom_mmengine_0102.dataset.sampler import DefaultSampler
 
 from custom_mmdet_330.datasets import AspectRatioBatchSampler, CocoDataset
 from custom_mmdet_330.datasets.transforms import (LoadAnnotations, PackDetInputs,

@@ -15,8 +15,8 @@ from mmcv.transforms import Pad as MMCV_Pad
 from mmcv.transforms import RandomFlip as MMCV_RandomFlip
 from mmcv.transforms import Resize as MMCV_Resize
 from mmcv.transforms.utils import avoid_cache_randomness, cache_randomness
-from mmengine.dataset import BaseDataset
-from mmengine.utils import is_str
+from custom_mmengine_0102.dataset import BaseDataset
+from custom_mmengine_0102.utils import is_str
 from numpy import random
 
 from custom_mmdet_330.registry import TRANSFORMS

@@ -10,9 +10,9 @@ try:
 except ImportError:
     sns = None
 import torch
-from mmengine.dist import master_only
-from mmengine.structures import InstanceData, PixelData
-from mmengine.visualization import Visualizer
+from custom_mmengine_0102.dist import master_only
+from custom_mmengine_0102.structures import InstanceData, PixelData
+from custom_mmengine_0102.visualization import Visualizer
 
 from ..evaluation import INSTANCE_OFFSET
 from ..registry import VISUALIZERS
@@ -49,7 +49,7 @@ class DetLocalVisualizer(Visualizer):
     Examples:
         >>> import numpy as np
         >>> import torch
-        >>> from mmengine.structures import InstanceData
+        >>> from custom_mmengine_0102.structures import InstanceData
         >>> from custom_mmdet_330.structures import DetDataSample
         >>> from custom_mmdet_330.visualization import DetLocalVisualizer
 

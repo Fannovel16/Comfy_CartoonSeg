@@ -5,8 +5,8 @@ from collections import defaultdict
 from typing import Dict, List, Optional
 
 import numpy as np
-from mmengine.fileio import get_local_path, load
-from mmengine.utils import is_abs
+from custom_mmengine_0102.fileio import get_local_path, load
+from custom_mmengine_0102.utils import is_abs
 
 from custom_mmdet_330.registry import DATASETS
 from .base_det_dataset import BaseDetDataset

@@ -4,8 +4,8 @@ from typing import List, Optional, Tuple, Union
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule, DepthwiseSeparableConvModule, Scale, is_norm
-from mmengine.model import bias_init_with_prob, constant_init, normal_init
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.model import bias_init_with_prob, constant_init, normal_init
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS, TASK_UTILS

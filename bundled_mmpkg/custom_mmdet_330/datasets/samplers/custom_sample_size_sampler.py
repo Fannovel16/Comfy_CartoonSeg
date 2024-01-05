@@ -3,7 +3,7 @@ import math
 from typing import Iterator, Optional, Sequence, Sized
 
 import torch
-from mmengine.dist import get_dist_info, sync_random_seed
+from custom_mmengine_0102.dist import get_dist_info, sync_random_seed
 from torch.utils.data import Sampler
 
 from custom_mmdet_330.registry import DATA_SAMPLERS

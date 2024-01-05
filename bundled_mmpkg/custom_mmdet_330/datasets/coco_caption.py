@@ -3,8 +3,8 @@ from pathlib import Path
 from typing import List
 
 import custom_mmengine_0102 as mmengine
-from mmengine.dataset import BaseDataset
-from mmengine.fileio import get_file_backend
+from custom_mmengine_0102.dataset import BaseDataset
+from custom_mmengine_0102.fileio import get_file_backend
 
 from custom_mmdet_330.registry import DATASETS
 

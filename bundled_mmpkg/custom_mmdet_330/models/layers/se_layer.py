@@ -2,8 +2,8 @@
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule
-from mmengine.model import BaseModule
-from mmengine.utils import digit_version, is_tuple_of
+from custom_mmengine_0102.model import BaseModule
+from custom_mmengine_0102.utils import digit_version, is_tuple_of
 from torch import Tensor
 
 from custom_mmdet_330.utils import MultiConfig, OptConfigType, OptMultiConfig

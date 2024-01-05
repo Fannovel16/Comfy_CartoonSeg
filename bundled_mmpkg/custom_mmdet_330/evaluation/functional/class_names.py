@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.utils import is_str
+from custom_mmengine_0102.utils import is_str
 
 
 def wider_face_classes() -> list:

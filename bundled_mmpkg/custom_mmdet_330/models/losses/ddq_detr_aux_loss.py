@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 import torch.nn as nn
-from mmengine.structures import BaseDataElement
+from custom_mmengine_0102.structures import BaseDataElement
 
 from custom_mmdet_330.models.utils import multi_apply
 from custom_mmdet_330.registry import MODELS, TASK_UTILS

@@ -2,7 +2,7 @@
 from typing import Optional
 
 import torch
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 
 from custom_mmdet_330.registry import TASK_UTILS
 from custom_mmdet_330.structures.bbox import bbox_xyxy_to_cxcywh

@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.config import read_base
-from mmengine.optim.scheduler.lr_scheduler import LinearLR, MultiStepLR
+from custom_mmengine_0102.config import read_base
+from custom_mmengine_0102.optim.scheduler.lr_scheduler import LinearLR, MultiStepLR
 
 with read_base():
     from .panoptic_fpn_r50_fpn_1x_coco import *

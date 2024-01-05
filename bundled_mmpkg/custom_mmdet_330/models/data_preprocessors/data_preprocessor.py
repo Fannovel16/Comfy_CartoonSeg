@@ -7,11 +7,11 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmengine.dist import barrier, broadcast, get_dist_info
-from mmengine.logging import MessageHub
-from mmengine.model import BaseDataPreprocessor, ImgDataPreprocessor
-from mmengine.structures import PixelData
-from mmengine.utils import is_seq_of
+from custom_mmengine_0102.dist import barrier, broadcast, get_dist_info
+from custom_mmengine_0102.logging import MessageHub
+from custom_mmengine_0102.model import BaseDataPreprocessor, ImgDataPreprocessor
+from custom_mmengine_0102.structures import PixelData
+from custom_mmengine_0102.utils import is_seq_of
 from torch import Tensor
 
 from custom_mmdet_330.models.utils import unfold_wo_center

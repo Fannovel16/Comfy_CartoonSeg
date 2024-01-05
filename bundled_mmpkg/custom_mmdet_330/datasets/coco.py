@@ -3,7 +3,7 @@ import copy
 import os.path as osp
 from typing import List, Union
 
-from mmengine.fileio import get_local_path
+from custom_mmengine_0102.fileio import get_local_path
 
 from custom_mmdet_330.registry import DATASETS
 from .api_wrappers import COCO

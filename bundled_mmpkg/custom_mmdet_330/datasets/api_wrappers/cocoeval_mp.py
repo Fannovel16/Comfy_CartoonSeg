@@ -6,7 +6,7 @@ from collections import defaultdict
 
 import numpy as np
 import torch.multiprocessing as mp
-from mmengine.logging import MMLogger
+from custom_mmengine_0102.logging import MMLogger
 from pycocotools.cocoeval import COCOeval
 from tqdm import tqdm
 

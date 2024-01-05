@@ -9,7 +9,7 @@ import os
 
 import custom_mmcv_210 as mmcv
 import numpy as np
-from mmengine.fileio import get
+from custom_mmengine_0102.fileio import get
 
 # A custom value to distinguish instance ID and category ID; need to
 # be greater than the number of categories.

@@ -3,7 +3,7 @@ import copy
 from typing import Optional, Union
 
 import torch
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 
 from custom_mmdet_330.registry import TASK_UTILS
@@ -180,7 +180,7 @@ class MaxIoUAssigner(BaseAssigner):
             :obj:`AssignResult`: The assign result.
 
         Example:
-            >>> from mmengine.structures import InstanceData
+            >>> from custom_mmengine_0102.structures import InstanceData
             >>> self = MaxIoUAssigner(0.5, 0.5)
             >>> pred_instances = InstanceData()
             >>> pred_instances.priors = torch.Tensor([[0, 0, 10, 10],

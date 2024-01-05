@@ -4,8 +4,8 @@ import random
 from typing import Iterator, Optional, Sized
 
 import numpy as np
-from mmengine.dataset import ClassBalancedDataset, ConcatDataset
-from mmengine.dist import get_dist_info, sync_random_seed
+from custom_mmengine_0102.dataset import ClassBalancedDataset, ConcatDataset
+from custom_mmengine_0102.dist import get_dist_info, sync_random_seed
 from torch.utils.data import Sampler
 
 from custom_mmdet_330.registry import DATA_SAMPLERS

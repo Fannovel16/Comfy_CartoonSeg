@@ -7,7 +7,7 @@ except ImportError:
     lap = None
 import numpy as np
 import torch
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 
 from custom_mmdet_330.registry import MODELS, TASK_UTILS
 from custom_mmdet_330.structures import DetDataSample

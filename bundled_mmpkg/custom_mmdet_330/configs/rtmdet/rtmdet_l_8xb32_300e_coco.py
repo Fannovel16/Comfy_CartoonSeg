@@ -4,7 +4,7 @@
 # mmcv >= 2.0.1
 # mmengine >= 0.8.0
 
-from mmengine.config import read_base
+from custom_mmengine_0102.config import read_base
 
 with read_base():
     from .._base_.default_runtime import *
@@ -15,9 +15,9 @@ with read_base():
 from mmcv.ops import nms
 from mmcv.transforms.loading import LoadImageFromFile
 from mmcv.transforms.processing import RandomResize
-from mmengine.hooks.ema_hook import EMAHook
-from mmengine.optim.optimizer.optimizer_wrapper import OptimWrapper
-from mmengine.optim.scheduler.lr_scheduler import CosineAnnealingLR, LinearLR
+from custom_mmengine_0102.hooks.ema_hook import EMAHook
+from custom_mmengine_0102.optim.optimizer.optimizer_wrapper import OptimWrapper
+from custom_mmengine_0102.optim.scheduler.lr_scheduler import CosineAnnealingLR, LinearLR
 from torch.nn import SyncBatchNorm
 from torch.nn.modules.activation import SiLU
 from torch.optim.adamw import AdamW

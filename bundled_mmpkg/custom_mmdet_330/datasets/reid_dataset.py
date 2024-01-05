@@ -5,8 +5,8 @@ from collections import defaultdict
 from typing import Any, Dict, List
 
 import numpy as np
-from mmengine.dataset import BaseDataset
-from mmengine.utils import check_file_exist
+from custom_mmengine_0102.dataset import BaseDataset
+from custom_mmengine_0102.utils import check_file_exist
 
 from custom_mmdet_330.registry import DATASETS
 

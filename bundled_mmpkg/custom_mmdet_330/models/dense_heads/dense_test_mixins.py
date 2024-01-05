@@ -5,7 +5,7 @@ from inspect import signature
 
 import torch
 from mmcv.ops import batched_nms
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.structures import InstanceData
 
 from custom_mmdet_330.structures.bbox import bbox_mapping_back
 from ..test_time_augs import merge_aug_proposals

@@ -4,8 +4,8 @@ from typing import Tuple
 
 import numpy as np
 import torch
-from mmengine.model import BaseModule
-from mmengine.runner.checkpoint import load_checkpoint
+from custom_mmengine_0102.model import BaseModule
+from custom_mmengine_0102.runner.checkpoint import load_checkpoint
 from scipy.optimize import linear_sum_assignment
 from torch import Tensor, nn
 

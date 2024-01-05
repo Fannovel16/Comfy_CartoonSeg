@@ -7,9 +7,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 from mmcv.cnn import ConvModule, build_conv_layer, build_upsample_layer
 from mmcv.ops.carafe import CARAFEPack
-from mmengine.config import ConfigDict
-from mmengine.model import BaseModule, ModuleList
-from mmengine.structures import InstanceData
+from custom_mmengine_0102.config import ConfigDict
+from custom_mmengine_0102.model import BaseModule, ModuleList
+from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 from torch.nn.modules.utils import _pair
 
@@ -303,7 +303,7 @@ class FCNMaskHead(BaseModule):
             Tensor: Encoded masks, has shape (n, img_w, img_h)
 
         Example:
-            >>> from mmengine.config import Config
+            >>> from custom_mmengine_0102.config import Config
             >>> from custom_mmdet_330.models.roi_heads.mask_heads.fcn_mask_head import *  # NOQA
             >>> N = 7  # N = number of extracted ROIs
             >>> C, H, W = 11, 32, 32

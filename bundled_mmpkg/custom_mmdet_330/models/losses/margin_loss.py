@@ -3,7 +3,7 @@ from typing import Optional, Tuple, Union
 
 import numpy as np
 import torch
-from mmengine.model import BaseModule
+from custom_mmengine_0102.model import BaseModule
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

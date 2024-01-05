@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import Dict, Tuple
 
-from mmengine.model import uniform_init
+from custom_mmengine_0102.model import uniform_init
 from torch import Tensor, nn
 
 from custom_mmdet_330.registry import MODELS

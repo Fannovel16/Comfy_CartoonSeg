@@ -1,8 +1,8 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from collections import OrderedDict
 
-from mmengine.dist import get_dist_info
-from mmengine.hooks import Hook
+from custom_mmengine_0102.dist import get_dist_info
+from custom_mmengine_0102.hooks import Hook
 from torch import nn
 
 from custom_mmdet_330.registry import HOOKS

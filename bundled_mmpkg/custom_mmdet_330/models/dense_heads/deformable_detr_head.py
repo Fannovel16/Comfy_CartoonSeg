@@ -5,7 +5,7 @@ from typing import Dict, List, Tuple
 import torch
 import torch.nn as nn
 from mmcv.cnn import Linear
-from mmengine.model import bias_init_with_prob, constant_init
+from custom_mmengine_0102.model import bias_init_with_prob, constant_init
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

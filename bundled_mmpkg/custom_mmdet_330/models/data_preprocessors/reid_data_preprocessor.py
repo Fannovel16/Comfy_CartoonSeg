@@ -5,7 +5,7 @@ from typing import Optional, Sequence
 
 import torch
 import torch.nn.functional as F
-from mmengine.model import BaseDataPreprocessor, stack_batch
+from custom_mmengine_0102.model import BaseDataPreprocessor, stack_batch
 
 from custom_mmdet_330.registry import MODELS
 
@@ -112,7 +112,7 @@ class ReIDDataPreprocessor(BaseDataPreprocessor):
         if batch_augments is not None:
             self.batch_augments = RandomBatchAugment(**batch_augments)
             if not self.to_onehot:
-                from mmengine.logging import MMLogger
+                from custom_mmengine_0102.logging import MMLogger
                 MMLogger.get_current_instance().info(
                     'Because batch augmentations are enabled, the data '
                     'preprocessor automatically enables the `to_onehot` '

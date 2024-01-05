@@ -6,8 +6,8 @@ from collections import OrderedDict
 from typing import Dict
 
 import numpy as np
-from mmengine.fileio import load
-from mmengine.logging import MMLogger
+from custom_mmengine_0102.fileio import load
+from custom_mmengine_0102.logging import MMLogger
 from terminaltables import AsciiTable
 
 from custom_mmdet_330.datasets.api_wrappers import COCO, COCOeval, COCOevalMP

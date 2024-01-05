@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmengine.optim.scheduler.lr_scheduler import LRSchedulerMixin
-from mmengine.optim.scheduler.momentum_scheduler import MomentumSchedulerMixin
-from mmengine.optim.scheduler.param_scheduler import INF, _ParamScheduler
+from custom_mmengine_0102.optim.scheduler.lr_scheduler import LRSchedulerMixin
+from custom_mmengine_0102.optim.scheduler.momentum_scheduler import MomentumSchedulerMixin
+from custom_mmengine_0102.optim.scheduler.param_scheduler import INF, _ParamScheduler
 from torch.optim import Optimizer
 
 from custom_mmdet_330.registry import PARAM_SCHEDULERS

@@ -4,11 +4,11 @@
 # mmcv >= 2.0.1
 # mmengine >= 0.8.0
 
-from mmengine.config import read_base
+from custom_mmengine_0102.config import read_base
 
 with read_base():
     from .rtmdet_ins_l_8xb32_300e_coco import *
-from mmengine.optim.scheduler.lr_scheduler import CosineAnnealingLR, LinearLR
+from custom_mmengine_0102.optim.scheduler.lr_scheduler import CosineAnnealingLR, LinearLR
 
 model.update(
     dict(

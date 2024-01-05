@@ -1,8 +1,8 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import Sequence
 
-from mmengine.hooks import Hook
-from mmengine.model import is_model_wrapper
+from custom_mmengine_0102.hooks import Hook
+from custom_mmengine_0102.model import is_model_wrapper
 
 from custom_mmdet_330.registry import HOOKS
 

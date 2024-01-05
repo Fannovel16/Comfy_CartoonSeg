@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import inspect
 
-from mmengine.logging import print_log
+from custom_mmengine_0102.logging import print_log
 
 
 def get_caller_name():

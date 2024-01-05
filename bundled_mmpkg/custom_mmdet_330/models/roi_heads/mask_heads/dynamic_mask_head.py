@@ -3,7 +3,7 @@ from typing import List
 
 import torch
 import torch.nn as nn
-from mmengine.config import ConfigDict
+from custom_mmengine_0102.config import ConfigDict
 from torch import Tensor
 
 from custom_mmdet_330.models.task_modules import SamplingResult

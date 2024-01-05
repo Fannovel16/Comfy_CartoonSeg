@@ -5,7 +5,7 @@ from contextlib import contextmanager
 from functools import wraps
 
 import torch
-from mmengine.logging import MMLogger
+from custom_mmengine_0102.logging import MMLogger
 
 
 def cast_tensor_type(inputs, src_type=None, dst_type=None):

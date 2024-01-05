@@ -8,8 +8,8 @@ import torch.nn.functional as F
 from mmcv.cnn import (Linear, build_activation_layer, build_conv_layer,
                       build_norm_layer)
 from mmcv.cnn.bricks.drop import Dropout
-from mmengine.model import BaseModule, ModuleList
-from mmengine.utils import to_2tuple
+from custom_mmengine_0102.model import BaseModule, ModuleList
+from custom_mmengine_0102.utils import to_2tuple
 from torch import Tensor, nn
 
 from custom_mmdet_330.registry import MODELS

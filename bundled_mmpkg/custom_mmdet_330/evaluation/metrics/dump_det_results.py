@@ -2,8 +2,8 @@
 import warnings
 from typing import Sequence
 
-from mmengine.evaluator import DumpResults
-from mmengine.evaluator.metric import _to_cpu
+from custom_mmengine_0102.evaluator import DumpResults
+from custom_mmengine_0102.evaluator.metric import _to_cpu
 
 from custom_mmdet_330.registry import METRICS
 from custom_mmdet_330.structures.mask import encode_mask_results

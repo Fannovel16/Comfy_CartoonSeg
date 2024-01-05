@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmengine.model import BaseModule, ModuleList, constant_init, xavier_init
+from custom_mmengine_0102.model import BaseModule, ModuleList, constant_init, xavier_init
 
 from custom_mmdet_330.registry import MODELS
 from .fpn import FPN
