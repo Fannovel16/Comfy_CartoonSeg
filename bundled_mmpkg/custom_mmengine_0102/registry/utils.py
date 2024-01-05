@@ -65,13 +65,13 @@ def count_registered_modules(save_path: Optional[str] = None,
         dict: Statistic results of all registered modules.
     """
     # import modules to trigger registering
-    import custom_mmengine_0102 as mmengine.dataset
-    import custom_mmengine_0102 as mmengine.evaluator
-    import custom_mmengine_0102 as mmengine.hooks
-    import custom_mmengine_0102 as mmengine.model
-    import custom_mmengine_0102 as mmengine.optim
-    import custom_mmengine_0102 as mmengine.runner
-    import custom_mmengine_0102 as mmengine.visualization  # noqa: F401
+    import custom_mmengine_0102.dataset
+    import custom_mmengine_0102.evaluator
+    import custom_mmengine_0102.hooks
+    import custom_mmengine_0102.model
+    import custom_mmengine_0102.optim
+    import custom_mmengine_0102.runner
+    import custom_mmengine_0102.visualization  # noqa: F401
 
     registries_info = {}
     # traverse all registries in MMEngine

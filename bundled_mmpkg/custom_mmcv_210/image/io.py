@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Optional, Union
 
 import cv2
-import custom_mmengine_0102 as mmengine.fileio as fileio
+import custom_mmengine_0102.fileio as fileio
 import numpy as np
 from cv2 import (IMREAD_COLOR, IMREAD_GRAYSCALE, IMREAD_IGNORE_ORIENTATION,
                  IMREAD_UNCHANGED)

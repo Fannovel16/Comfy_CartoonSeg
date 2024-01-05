@@ -13,8 +13,8 @@ import torch.nn as nn
 from torch.distributed import destroy_process_group
 from torch.utils.data import Dataset
 
-import custom_mmengine_0102 as mmengine.hooks  # noqa F401
-import custom_mmengine_0102 as mmengine.optim  # noqa F401
+import custom_mmengine_0102.hooks  # noqa F401
+import custom_mmengine_0102.optim  # noqa F401
 from custom_mmengine_0102.config import Config
 from custom_mmengine_0102.dist import is_distributed
 from custom_mmengine_0102.evaluator import BaseMetric
