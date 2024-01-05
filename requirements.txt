@@ -2,3 +2,4 @@ yapf
 addict
 pyyaml
 einops
+terminaltables
