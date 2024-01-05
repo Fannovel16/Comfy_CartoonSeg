@@ -9,8 +9,8 @@ from custom_mmengine_0102.config import read_base
 with read_base():
     from .mask_rcnn_r101_fpn_1x_coco import *
 
-from mmcv.transforms import RandomChoiceResize, RandomFlip
-from mmcv.transforms.loading import LoadImageFromFile
+from custom_mmcv_210.transforms import RandomChoiceResize, RandomFlip
+from custom_mmcv_210.transforms.loading import LoadImageFromFile
 
 from custom_mmdet_330.datasets.transforms.formatting import PackDetInputs
 from custom_mmdet_330.datasets.transforms.loading import LoadAnnotations

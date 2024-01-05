@@ -12,9 +12,9 @@ with read_base():
     from .._base_.datasets.coco_detection import *
     from .rtmdet_tta import *
 
-from mmcv.ops import nms
-from mmcv.transforms.loading import LoadImageFromFile
-from mmcv.transforms.processing import RandomResize
+from custom_mmcv_210.ops import nms
+from custom_mmcv_210.transforms.loading import LoadImageFromFile
+from custom_mmcv_210.transforms.processing import RandomResize
 from custom_mmengine_0102.hooks.ema_hook import EMAHook
 from custom_mmengine_0102.optim.optimizer.optimizer_wrapper import OptimWrapper
 from custom_mmengine_0102.optim.scheduler.lr_scheduler import CosineAnnealingLR, LinearLR

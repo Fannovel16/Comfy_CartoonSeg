@@ -171,7 +171,7 @@ def revert_sync_batchnorm(module: nn.Module) -> nn.Module:
     module_checklist = [torch.nn.modules.batchnorm.SyncBatchNorm]
 
     if mmcv_full_available():
-        from mmcv.ops import SyncBatchNorm
+        from custom_mmcv_210.ops import SyncBatchNorm
         module_checklist.append(SyncBatchNorm)
 
     if isinstance(module, tuple(module_checklist)):
@@ -232,7 +232,7 @@ def convert_sync_batchnorm(module: nn.Module,
         if implementation == 'torch':
             SyncBatchNorm = torch.nn.modules.batchnorm.SyncBatchNorm
         elif implementation == 'mmcv':
-            from mmcv.ops import SyncBatchNorm  # type: ignore
+            from custom_mmcv_210.ops import SyncBatchNorm  # type: ignore
         else:
             raise ValueError('sync_bn should be "torch" or "mmcv", but got '
                              f'{implementation}')

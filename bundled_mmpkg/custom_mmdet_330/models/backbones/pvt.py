@@ -7,9 +7,9 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.cnn import Conv2d, build_activation_layer, build_norm_layer
-from mmcv.cnn.bricks.drop import build_dropout
-from mmcv.cnn.bricks.transformer import MultiheadAttention
+from custom_mmcv_210.cnn import Conv2d, build_activation_layer, build_norm_layer
+from custom_mmcv_210.cnn.bricks.drop import build_dropout
+from custom_mmcv_210.cnn.bricks.transformer import MultiheadAttention
 from custom_mmengine_0102.logging import MMLogger
 from custom_mmengine_0102.model import (BaseModule, ModuleList, Sequential, constant_init,
                             normal_init, trunc_normal_init)

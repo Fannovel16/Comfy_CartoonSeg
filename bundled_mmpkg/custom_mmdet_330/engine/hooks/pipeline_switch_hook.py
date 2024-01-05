@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.transforms import Compose
+from custom_mmcv_210.transforms import Compose
 from custom_mmengine_0102.hooks import Hook
 
 from custom_mmdet_330.registry import HOOKS

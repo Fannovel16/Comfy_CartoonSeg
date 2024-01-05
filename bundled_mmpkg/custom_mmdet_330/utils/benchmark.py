@@ -7,9 +7,9 @@ from typing import List, Optional, Union
 import numpy as np
 import torch
 import torch.nn as nn
-from mmcv.cnn import fuse_conv_bn
+from custom_mmcv_210.cnn import fuse_conv_bn
 # TODO need update
-# from mmcv.runner import wrap_fp16_model
+# from custom_mmcv_210.runner import wrap_fp16_model
 from custom_mmengine_0102 import MMLogger
 from custom_mmengine_0102.config import Config
 from custom_mmengine_0102.device import get_max_cuda_memory

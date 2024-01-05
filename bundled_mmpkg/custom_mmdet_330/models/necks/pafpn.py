@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.cnn import ConvModule
+from custom_mmcv_210.cnn import ConvModule
 
 from custom_mmdet_330.registry import MODELS
 from .fpn import FPN

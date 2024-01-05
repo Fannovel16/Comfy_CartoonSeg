@@ -4,7 +4,7 @@ from typing import List, Tuple
 
 import torch
 import torch.nn.functional as F
-from mmcv.ops import point_sample, rel_roi_point_to_rel_img_point
+from custom_mmcv_210.ops import point_sample, rel_roi_point_to_rel_img_point
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

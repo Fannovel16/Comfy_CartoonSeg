@@ -2,8 +2,8 @@
 from typing import Tuple
 
 import torch.nn as nn
-from mmcv.cnn import ConvModule
-from mmcv.ops import MaskedConv2d
+from custom_mmcv_210.cnn import ConvModule
+from custom_mmcv_210.ops import MaskedConv2d
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

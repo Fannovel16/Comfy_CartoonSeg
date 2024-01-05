@@ -5,8 +5,8 @@ from typing import List, Optional, Sequence, Tuple, Union
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.cnn import ConvModule, DepthwiseSeparableConvModule
-from mmcv.ops.nms import batched_nms
+from custom_mmcv_210.cnn import ConvModule, DepthwiseSeparableConvModule
+from custom_mmcv_210.ops.nms import batched_nms
 from custom_mmengine_0102.config import ConfigDict
 from custom_mmengine_0102.model import bias_init_with_prob
 from custom_mmengine_0102.structures import InstanceData

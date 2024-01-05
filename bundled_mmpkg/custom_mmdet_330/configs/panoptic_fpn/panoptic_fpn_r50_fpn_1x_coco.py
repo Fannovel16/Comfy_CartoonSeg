@@ -12,7 +12,7 @@ with read_base():
     from .._base_.schedules.schedule_1x import *
     from .._base_.default_runtime import *
 
-from mmcv.ops import nms
+from custom_mmcv_210.ops import nms
 from torch.nn import GroupNorm
 
 from custom_mmdet_330.models.data_preprocessors.data_preprocessor import \

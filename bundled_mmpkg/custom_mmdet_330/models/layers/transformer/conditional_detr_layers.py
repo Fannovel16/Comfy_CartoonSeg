@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
-from mmcv.cnn import build_norm_layer
-from mmcv.cnn.bricks.transformer import FFN
+from custom_mmcv_210.cnn import build_norm_layer
+from custom_mmcv_210.cnn.bricks.transformer import FFN
 from torch import Tensor
 from torch.nn import ModuleList
 

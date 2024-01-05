@@ -9,7 +9,7 @@ import torch.nn as nn
 def efficient_conv_bn_eval_forward(bn: nn.modules.batchnorm._BatchNorm,
                                    conv: nn.modules.conv._ConvNd,
                                    x: torch.Tensor):
-    """Code borrowed from mmcv 2.0.1, so that this feature can be used for old
+    """Code borrowed from custom_mmcv_210 2.0.1, so that this feature can be used for old
     mmcv versions.
 
     Implementation based on https://arxiv.org/abs/2305.11624

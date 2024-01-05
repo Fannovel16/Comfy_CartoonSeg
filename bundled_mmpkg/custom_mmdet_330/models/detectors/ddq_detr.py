@@ -3,7 +3,7 @@ from typing import Dict, Tuple
 
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
-from mmcv.ops import MultiScaleDeformableAttention, batched_nms
+from custom_mmcv_210.ops import MultiScaleDeformableAttention, batched_nms
 from torch import Tensor, nn
 from torch.nn.init import normal_
 

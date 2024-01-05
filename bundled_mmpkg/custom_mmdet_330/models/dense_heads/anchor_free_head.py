@@ -3,7 +3,7 @@ from abc import abstractmethod
 from typing import Any, List, Sequence, Tuple, Union
 
 import torch.nn as nn
-from mmcv.cnn import ConvModule
+from custom_mmcv_210.cnn import ConvModule
 from numpy import ndarray
 from torch import Tensor
 

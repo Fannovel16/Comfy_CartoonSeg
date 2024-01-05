@@ -4,7 +4,7 @@ from typing import Dict, Tuple
 
 import torch
 import torch.nn.functional as F
-from mmcv.cnn.bricks.transformer import MultiScaleDeformableAttention
+from custom_mmcv_210.cnn.bricks.transformer import MultiScaleDeformableAttention
 from custom_mmengine_0102.model import xavier_init
 from torch import Tensor, nn
 from torch.nn.init import normal_

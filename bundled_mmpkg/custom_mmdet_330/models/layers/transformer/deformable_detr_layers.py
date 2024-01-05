@@ -2,9 +2,9 @@
 from typing import Optional, Tuple, Union
 
 import torch
-from mmcv.cnn import build_norm_layer
-from mmcv.cnn.bricks.transformer import FFN, MultiheadAttention
-from mmcv.ops import MultiScaleDeformableAttention
+from custom_mmcv_210.cnn import build_norm_layer
+from custom_mmcv_210.cnn.bricks.transformer import FFN, MultiheadAttention
+from custom_mmcv_210.ops import MultiScaleDeformableAttention
 from custom_mmengine_0102.model import ModuleList
 from torch import Tensor, nn
 

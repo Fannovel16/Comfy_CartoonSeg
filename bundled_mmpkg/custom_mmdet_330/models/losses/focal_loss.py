@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.ops import sigmoid_focal_loss as _sigmoid_focal_loss
+from custom_mmcv_210.ops import sigmoid_focal_loss as _sigmoid_focal_loss
 
 from custom_mmdet_330.registry import MODELS
 from .accuracy import accuracy

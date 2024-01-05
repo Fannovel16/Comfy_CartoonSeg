@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.transforms.loading import LoadImageFromFile
+from custom_mmcv_210.transforms.loading import LoadImageFromFile
 from custom_mmengine_0102.dataset.sampler import DefaultSampler
 
 from custom_mmdet_330.datasets.coco import CocoDataset

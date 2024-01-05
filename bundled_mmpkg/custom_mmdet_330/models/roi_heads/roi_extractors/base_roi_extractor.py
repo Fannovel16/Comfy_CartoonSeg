@@ -4,7 +4,7 @@ from typing import List, Optional, Tuple
 
 import torch
 import torch.nn as nn
-from mmcv import ops
+from custom_mmcv_210 import ops
 from custom_mmengine_0102.model import BaseModule
 from torch import Tensor
 

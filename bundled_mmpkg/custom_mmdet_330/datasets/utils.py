@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 
-from mmcv.transforms import LoadImageFromFile
+from custom_mmcv_210.transforms import LoadImageFromFile
 
 from custom_mmdet_330.datasets.transforms import LoadAnnotations, LoadPanopticAnnotations
 from custom_mmdet_330.registry import TRANSFORMS

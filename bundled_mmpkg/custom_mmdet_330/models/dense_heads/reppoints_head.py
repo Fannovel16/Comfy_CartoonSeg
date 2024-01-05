@@ -4,8 +4,8 @@ from typing import Dict, List, Sequence, Tuple
 import numpy as np
 import torch
 import torch.nn as nn
-from mmcv.cnn import ConvModule
-from mmcv.ops import DeformConv2d
+from custom_mmcv_210.cnn import ConvModule
+from custom_mmcv_210.ops import DeformConv2d
 from custom_mmengine_0102.config import ConfigDict
 from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor

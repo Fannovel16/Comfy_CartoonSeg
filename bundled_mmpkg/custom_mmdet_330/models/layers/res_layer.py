@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import Optional
 
-from mmcv.cnn import build_conv_layer, build_norm_layer
+from custom_mmcv_210.cnn import build_conv_layer, build_norm_layer
 from custom_mmengine_0102.model import BaseModule, Sequential
 from torch import Tensor
 from torch import nn as nn

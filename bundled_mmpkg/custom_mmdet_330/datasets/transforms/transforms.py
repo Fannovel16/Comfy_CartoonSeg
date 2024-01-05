@@ -8,13 +8,13 @@ from typing import List, Optional, Sequence, Tuple, Union
 import cv2
 import custom_mmcv_210 as mmcv
 import numpy as np
-from mmcv.image import imresize
-from mmcv.image.geometric import _scale_size
-from mmcv.transforms import BaseTransform
-from mmcv.transforms import Pad as MMCV_Pad
-from mmcv.transforms import RandomFlip as MMCV_RandomFlip
-from mmcv.transforms import Resize as MMCV_Resize
-from mmcv.transforms.utils import avoid_cache_randomness, cache_randomness
+from custom_mmcv_210.image import imresize
+from custom_mmcv_210.image.geometric import _scale_size
+from custom_mmcv_210.transforms import BaseTransform
+from custom_mmcv_210.transforms import Pad as MMCV_Pad
+from custom_mmcv_210.transforms import RandomFlip as MMCV_RandomFlip
+from custom_mmcv_210.transforms import Resize as MMCV_Resize
+from custom_mmcv_210.transforms.utils import avoid_cache_randomness, cache_randomness
 from custom_mmengine_0102.dataset import BaseDataset
 from custom_mmengine_0102.utils import is_str
 from numpy import random

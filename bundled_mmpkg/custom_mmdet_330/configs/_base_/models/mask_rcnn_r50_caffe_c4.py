@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.ops import RoIAlign, nms
+from custom_mmcv_210.ops import RoIAlign, nms
 from custom_mmengine_0102.model.weight_init import PretrainedInit
 from torch.nn import BatchNorm2d
 

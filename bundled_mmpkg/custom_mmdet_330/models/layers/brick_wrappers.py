@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.cnn.bricks.wrappers import NewEmptyTensorOp, obsolete_torch_version
+from custom_mmcv_210.cnn.bricks.wrappers import NewEmptyTensorOp, obsolete_torch_version
 
 from custom_mmdet_330.registry import MODELS
 

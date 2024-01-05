@@ -2,7 +2,7 @@
 from typing import Optional, Tuple, Union
 
 import torch.nn as nn
-from mmcv.cnn import ConvModule
+from custom_mmcv_210.cnn import ConvModule
 from custom_mmengine_0102.config import ConfigDict
 from torch import Tensor
 

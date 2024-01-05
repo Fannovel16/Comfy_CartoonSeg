@@ -5,7 +5,7 @@ from typing import Dict, List, Optional, Tuple, Union
 
 import torch
 import torch.nn as nn
-from mmcv.ops import DeformConv2d
+from custom_mmcv_210.ops import DeformConv2d
 from custom_mmengine_0102.config import ConfigDict
 from custom_mmengine_0102.model import BaseModule, ModuleList
 from custom_mmengine_0102.structures import InstanceData

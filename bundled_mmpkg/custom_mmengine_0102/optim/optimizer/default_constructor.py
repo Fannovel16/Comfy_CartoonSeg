@@ -274,7 +274,7 @@ class DefaultOptimWrapperConstructor:
                     logger='current')
 
         if mmcv_full_available():
-            from mmcv.ops import DeformConv2d, ModulatedDeformConv2d
+            from custom_mmcv_210.ops import DeformConv2d, ModulatedDeformConv2d
             is_dcn_module = isinstance(module,
                                        (DeformConv2d, ModulatedDeformConv2d))
         else:

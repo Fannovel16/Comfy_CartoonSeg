@@ -5,7 +5,7 @@ from typing import List, Optional, Union
 
 import numpy as np
 import torch
-from mmcv.ops import nms
+from custom_mmcv_210.ops import nms
 from custom_mmengine_0102.config import ConfigDict
 from torch import Tensor
 

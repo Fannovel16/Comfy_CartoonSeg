@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
-from mmcv.ops import point_sample
+from custom_mmcv_210.ops import point_sample
 from torch import Tensor
 
 

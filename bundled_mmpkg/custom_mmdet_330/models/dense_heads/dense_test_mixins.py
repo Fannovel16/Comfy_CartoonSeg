@@ -4,7 +4,7 @@ import warnings
 from inspect import signature
 
 import torch
-from mmcv.ops import batched_nms
+from custom_mmcv_210.ops import batched_nms
 from custom_mmengine_0102.structures import InstanceData
 
 from custom_mmdet_330.structures.bbox import bbox_mapping_back

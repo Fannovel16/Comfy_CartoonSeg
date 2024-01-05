@@ -2,7 +2,7 @@
 from typing import List, Tuple, Union
 
 import torch.nn as nn
-from mmcv.cnn import ConvModule
+from custom_mmcv_210.cnn import ConvModule
 from custom_mmengine_0102.model import BaseModule
 from torch import Tensor
 

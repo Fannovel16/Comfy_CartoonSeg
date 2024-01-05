@@ -2,7 +2,7 @@
 import copy
 
 import torch.nn as nn
-from mmcv.cnn import ConvModule, Scale
+from custom_mmcv_210.cnn import ConvModule, Scale
 
 from custom_mmdet_330.models.dense_heads.fcos_head import FCOSHead
 from custom_mmdet_330.registry import MODELS

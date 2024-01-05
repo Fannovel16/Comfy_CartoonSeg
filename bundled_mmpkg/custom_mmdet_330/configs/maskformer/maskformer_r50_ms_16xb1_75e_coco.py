@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.transforms import RandomChoice, RandomChoiceResize
+from custom_mmcv_210.transforms import RandomChoice, RandomChoiceResize
 from custom_mmengine_0102.config import read_base
 from custom_mmengine_0102.model.weight_init import PretrainedInit
 from custom_mmengine_0102.optim.optimizer import OptimWrapper

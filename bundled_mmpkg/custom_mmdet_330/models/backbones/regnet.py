@@ -3,7 +3,7 @@ import warnings
 
 import numpy as np
 import torch.nn as nn
-from mmcv.cnn import build_conv_layer, build_norm_layer
+from custom_mmcv_210.cnn import build_conv_layer, build_norm_layer
 
 from custom_mmdet_330.registry import MODELS
 from .resnet import ResNet

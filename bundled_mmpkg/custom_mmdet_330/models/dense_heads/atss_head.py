@@ -3,7 +3,7 @@ from typing import List, Optional, Sequence, Tuple
 
 import torch
 import torch.nn as nn
-from mmcv.cnn import ConvModule, Scale
+from custom_mmcv_210.cnn import ConvModule, Scale
 from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 

@@ -9,8 +9,8 @@ from custom_mmengine_0102.config import read_base
 with read_base():
     from .rtmdet_ins_s_8xb32_300e_coco import *
 
-from mmcv.transforms.loading import LoadImageFromFile
-from mmcv.transforms.processing import RandomResize
+from custom_mmcv_210.transforms.loading import LoadImageFromFile
+from custom_mmcv_210.transforms.processing import RandomResize
 
 from custom_mmdet_330.datasets.transforms.formatting import PackDetInputs
 from custom_mmdet_330.datasets.transforms.loading import (FilterAnnotations,

@@ -4,8 +4,8 @@ from typing import List, Tuple, Union
 import numpy as np
 import torch
 import torch.nn as nn
-from mmcv.cnn import ConvModule, Scale
-from mmcv.ops import DeformConv2d
+from custom_mmcv_210.cnn import ConvModule, Scale
+from custom_mmcv_210.ops import DeformConv2d
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS, TASK_UTILS

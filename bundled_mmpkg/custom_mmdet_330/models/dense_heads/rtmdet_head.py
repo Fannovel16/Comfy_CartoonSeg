@@ -3,7 +3,7 @@ from typing import List, Optional, Tuple, Union
 
 import torch
 import torch.nn as nn
-from mmcv.cnn import ConvModule, DepthwiseSeparableConvModule, Scale, is_norm
+from custom_mmcv_210.cnn import ConvModule, DepthwiseSeparableConvModule, Scale, is_norm
 from custom_mmengine_0102.model import bias_init_with_prob, constant_init, normal_init
 from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor

@@ -2,7 +2,7 @@
 import copy
 
 import torch
-from mmcv.ops import batched_nms
+from custom_mmcv_210.ops import batched_nms
 from torch import Tensor, nn
 
 from custom_mmdet_330.structures.bbox import bbox_cxcywh_to_xyxy

@@ -5,8 +5,8 @@ from typing import List, Tuple
 
 import torch
 import torch.nn as nn
-from mmcv.cnn import ConvModule
-from mmcv.ops import point_sample, rel_roi_point_to_rel_img_point
+from custom_mmcv_210.cnn import ConvModule
+from custom_mmcv_210.ops import point_sample, rel_roi_point_to_rel_img_point
 from custom_mmengine_0102.model import BaseModule
 from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor

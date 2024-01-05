@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import Optional, Tuple
 
-from mmcv.cnn.bricks import build_plugin_layer
+from custom_mmcv_210.cnn.bricks import build_plugin_layer
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

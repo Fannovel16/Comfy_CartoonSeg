@@ -2,7 +2,7 @@
 from typing import Optional, Tuple, Union
 
 import torch
-from mmcv.ops.nms import batched_nms
+from custom_mmcv_210.ops.nms import batched_nms
 from torch import Tensor
 
 from custom_mmdet_330.structures.bbox import bbox_overlaps

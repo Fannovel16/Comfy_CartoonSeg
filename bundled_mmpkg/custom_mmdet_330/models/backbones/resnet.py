@@ -3,7 +3,7 @@ import warnings
 
 import torch.nn as nn
 import torch.utils.checkpoint as cp
-from mmcv.cnn import build_conv_layer, build_norm_layer, build_plugin_layer
+from custom_mmcv_210.cnn import build_conv_layer, build_norm_layer, build_plugin_layer
 from custom_mmengine_0102.model import BaseModule
 from torch.nn.modules.batchnorm import _BatchNorm
 

@@ -9,7 +9,7 @@ from custom_mmengine_0102.config import read_base
 with read_base():
     from .._base_.default_runtime import *
 
-from mmcv.transforms import RandomResize
+from custom_mmcv_210.transforms import RandomResize
 from custom_mmengine_0102.dataset import RepeatDataset
 from custom_mmengine_0102.dataset.sampler import DefaultSampler
 from custom_mmengine_0102.optim import OptimWrapper

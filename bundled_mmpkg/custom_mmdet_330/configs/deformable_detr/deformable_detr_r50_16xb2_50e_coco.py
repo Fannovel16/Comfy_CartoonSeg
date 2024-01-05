@@ -10,7 +10,7 @@ with read_base():
     from .._base_.datasets.coco_detection import *
     from .._base_.default_runtime import *
 
-from mmcv.transforms import LoadImageFromFile, RandomChoice, RandomChoiceResize
+from custom_mmcv_210.transforms import LoadImageFromFile, RandomChoice, RandomChoiceResize
 from custom_mmengine_0102.optim.optimizer import OptimWrapper
 from custom_mmengine_0102.optim.scheduler import MultiStepLR
 from custom_mmengine_0102.runner.loops import EpochBasedTrainLoop, TestLoop, ValLoop

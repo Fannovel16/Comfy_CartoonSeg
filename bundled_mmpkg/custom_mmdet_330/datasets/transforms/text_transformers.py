@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import json
 
-from mmcv.transforms import BaseTransform
+from custom_mmcv_210.transforms import BaseTransform
 
 from custom_mmdet_330.registry import TRANSFORMS
 from custom_mmdet_330.structures.bbox import BaseBoxes

@@ -7,8 +7,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils.checkpoint as cp
-from mmcv.cnn import build_norm_layer
-from mmcv.cnn.bricks.transformer import FFN, build_dropout
+from custom_mmcv_210.cnn import build_norm_layer
+from custom_mmcv_210.cnn.bricks.transformer import FFN, build_dropout
 from custom_mmengine_0102.logging import MMLogger
 from custom_mmengine_0102.model import BaseModule, ModuleList
 from custom_mmengine_0102.model.weight_init import (constant_init, trunc_normal_,

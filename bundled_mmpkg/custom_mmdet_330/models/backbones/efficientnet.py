@@ -6,7 +6,7 @@ from functools import partial
 import torch
 import torch.nn as nn
 import torch.utils.checkpoint as cp
-from mmcv.cnn.bricks import ConvModule, DropPath
+from custom_mmcv_210.cnn.bricks import ConvModule, DropPath
 from custom_mmengine_0102.model import BaseModule, Sequential
 
 from custom_mmdet_330.registry import MODELS

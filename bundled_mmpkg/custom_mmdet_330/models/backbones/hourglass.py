@@ -4,7 +4,7 @@ from typing import List, Sequence
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.cnn import ConvModule
+from custom_mmcv_210.cnn import ConvModule
 from custom_mmengine_0102.model import BaseModule
 
 from custom_mmdet_330.registry import MODELS

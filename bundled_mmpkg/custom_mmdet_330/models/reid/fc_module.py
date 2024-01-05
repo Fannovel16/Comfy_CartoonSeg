@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch.nn as nn
-from mmcv.cnn import build_activation_layer, build_norm_layer
+from custom_mmcv_210.cnn import build_activation_layer, build_norm_layer
 from custom_mmengine_0102.model import BaseModule
 
 from custom_mmdet_330.registry import MODELS

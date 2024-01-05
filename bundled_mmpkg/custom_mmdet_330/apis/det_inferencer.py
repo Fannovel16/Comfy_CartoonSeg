@@ -8,7 +8,7 @@ import custom_mmcv_210 as mmcv
 import custom_mmengine_0102 as mmengine
 import numpy as np
 import torch.nn as nn
-from mmcv.transforms import LoadImageFromFile
+from custom_mmcv_210.transforms import LoadImageFromFile
 from custom_mmengine_0102.dataset import Compose
 from custom_mmengine_0102.fileio import (get_file_backend, isdir, join_path,
                              list_dir_or_file)

@@ -3,7 +3,7 @@ import random
 from collections import defaultdict
 from typing import Dict, List, Optional, Union
 
-from mmcv.transforms import BaseTransform
+from custom_mmcv_210.transforms import BaseTransform
 
 from custom_mmdet_330.registry import TRANSFORMS
 

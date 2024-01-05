@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.ops import nms
+from custom_mmcv_210.ops import nms
 from torch.nn import BatchNorm2d
 
 from custom_mmdet_330.models import (FPN, DetDataPreprocessor, FocalLoss, L1Loss, ResNet,

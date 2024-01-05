@@ -4,7 +4,7 @@ from typing import List, Tuple
 import numpy as np
 import torch
 import torch.nn as nn
-from mmcv.cnn import Conv2d, Linear, MaxPool2d
+from custom_mmcv_210.cnn import Conv2d, Linear, MaxPool2d
 from custom_mmengine_0102.config import ConfigDict
 from custom_mmengine_0102.model import BaseModule
 from custom_mmengine_0102.structures import InstanceData

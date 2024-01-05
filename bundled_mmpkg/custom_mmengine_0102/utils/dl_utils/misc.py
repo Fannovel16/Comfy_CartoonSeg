@@ -103,7 +103,7 @@ def mmcv_full_available() -> bool:
         bool: True if mmcv-full is installed else False.
     """
     try:
-        import mmcv  # noqa: F401
+        import custom_mmcv_210 as mmcv  # noqa: F401
     except ImportError:
         return False
     ext_loader = pkgutil.find_loader('mmcv._ext')

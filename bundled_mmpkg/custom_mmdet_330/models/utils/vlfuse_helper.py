@@ -8,7 +8,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils.checkpoint as checkpoint
-from mmcv.cnn.bricks import DropPath
+from custom_mmcv_210.cnn.bricks import DropPath
 from torch import Tensor
 
 try:

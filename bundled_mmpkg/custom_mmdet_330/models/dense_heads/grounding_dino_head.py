@@ -5,7 +5,7 @@ from typing import Dict, List, Optional, Tuple, Union
 
 import torch
 import torch.nn as nn
-from mmcv.cnn import Linear
+from custom_mmcv_210.cnn import Linear
 from custom_mmengine_0102.model import constant_init
 from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor

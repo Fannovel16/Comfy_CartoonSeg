@@ -3,8 +3,8 @@ import copy
 from typing import Callable, Dict, List, Optional, Union
 
 import numpy as np
-from mmcv.transforms import BaseTransform, Compose
-from mmcv.transforms.utils import cache_random_params, cache_randomness
+from custom_mmcv_210.transforms import BaseTransform, Compose
+from custom_mmcv_210.transforms.utils import cache_random_params, cache_randomness
 
 from custom_mmdet_330.registry import TRANSFORMS
 
@@ -66,7 +66,7 @@ class MultiBranch(BaseTransform):
         >>>         unsup_teacher=weak_pipeline,
         >>>         unsup_student=strong_pipeline)
         >>>     ]
-        >>> from mmcv.transforms import Compose
+        >>> from custom_mmcv_210.transforms import Compose
         >>> sup_branch = Compose(sup_pipeline)
         >>> unsup_branch = Compose(unsup_pipeline)
         >>> print(sup_branch)

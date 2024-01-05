@@ -9,7 +9,7 @@ from custom_mmengine_0102.config import read_base
 with read_base():
     from .mask_rcnn_r50_fpn_1x_coco import *
 
-from mmcv.transforms import RandomChoiceResize
+from custom_mmcv_210.transforms import RandomChoiceResize
 from custom_mmengine_0102.model.weight_init import PretrainedInit
 
 model = dict(

@@ -9,7 +9,7 @@ import numpy as np
 import pycocotools.mask as maskUtils
 import shapely.geometry as geometry
 import torch
-from mmcv.ops.roi_align import roi_align
+from custom_mmcv_210.ops.roi_align import roi_align
 
 T = TypeVar('T')
 

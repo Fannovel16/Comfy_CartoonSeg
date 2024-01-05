@@ -5,7 +5,7 @@ from typing import List, Tuple
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.ops import nms
+from custom_mmcv_210.ops import nms
 from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor
 

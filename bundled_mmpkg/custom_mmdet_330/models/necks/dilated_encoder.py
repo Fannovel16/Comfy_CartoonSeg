@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch.nn as nn
-from mmcv.cnn import ConvModule, is_norm
+from custom_mmcv_210.cnn import ConvModule, is_norm
 from custom_mmengine_0102.model import caffe2_xavier_init, constant_init, normal_init
 from torch.nn import BatchNorm2d
 

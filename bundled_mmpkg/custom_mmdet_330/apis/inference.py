@@ -7,8 +7,8 @@ from typing import Optional, Sequence, Union
 import numpy as np
 import torch
 import torch.nn as nn
-from mmcv.ops import RoIPool
-from mmcv.transforms import Compose
+from custom_mmcv_210.ops import RoIPool
+from custom_mmcv_210.transforms import Compose
 from custom_mmengine_0102.config import Config
 from custom_mmengine_0102.dataset import default_collate
 from custom_mmengine_0102.model.utils import revert_sync_batchnorm

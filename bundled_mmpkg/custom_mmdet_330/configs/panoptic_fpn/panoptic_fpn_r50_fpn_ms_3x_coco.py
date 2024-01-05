@@ -5,8 +5,8 @@ from custom_mmengine_0102.optim.scheduler.lr_scheduler import LinearLR, MultiSte
 with read_base():
     from .panoptic_fpn_r50_fpn_1x_coco import *
 
-from mmcv.transforms import RandomResize
-from mmcv.transforms.loading import LoadImageFromFile
+from custom_mmcv_210.transforms import RandomResize
+from custom_mmcv_210.transforms.loading import LoadImageFromFile
 
 from custom_mmdet_330.datasets.transforms.formatting import PackDetInputs
 from custom_mmdet_330.datasets.transforms.loading import LoadPanopticAnnotations

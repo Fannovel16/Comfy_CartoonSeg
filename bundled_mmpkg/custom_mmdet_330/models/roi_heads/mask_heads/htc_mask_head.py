@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from typing import List, Optional, Union
 
-from mmcv.cnn import ConvModule
+from custom_mmcv_210.cnn import ConvModule
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS

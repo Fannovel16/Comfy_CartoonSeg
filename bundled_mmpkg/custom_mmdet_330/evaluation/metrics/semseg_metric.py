@@ -5,7 +5,7 @@ from typing import Dict, Optional, Sequence, Union
 
 import numpy as np
 import torch
-from mmcv import imwrite
+from custom_mmcv_210 import imwrite
 from custom_mmengine_0102.dist import is_main_process
 from custom_mmengine_0102.evaluator import BaseMetric
 from custom_mmengine_0102.logging import MMLogger, print_log

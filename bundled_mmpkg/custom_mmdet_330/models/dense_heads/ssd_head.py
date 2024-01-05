@@ -4,7 +4,7 @@ from typing import Dict, List, Optional, Sequence, Tuple
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.cnn import ConvModule, DepthwiseSeparableConvModule
+from custom_mmcv_210.cnn import ConvModule, DepthwiseSeparableConvModule
 from torch import Tensor
 
 from custom_mmdet_330.registry import MODELS, TASK_UTILS

@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.cnn import VGG
+from custom_mmcv_210.cnn import VGG
 from custom_mmengine_0102.hooks import Hook
 from custom_mmengine_0102.runner import Runner
 

@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.transforms.loading import LoadImageFromFile
-from mmcv.transforms.processing import TestTimeAug
+from custom_mmcv_210.transforms.loading import LoadImageFromFile
+from custom_mmcv_210.transforms.processing import TestTimeAug
 
 from custom_mmdet_330.datasets.transforms.formatting import PackDetInputs
 from custom_mmdet_330.datasets.transforms.loading import LoadAnnotations

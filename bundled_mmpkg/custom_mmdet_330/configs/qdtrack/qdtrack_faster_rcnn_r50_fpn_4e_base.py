@@ -6,7 +6,7 @@ with read_base():
     from .._base_.models.faster_rcnn_r50_fpn import model
     from .._base_.default_runtime import *
 
-from mmcv.ops import RoIAlign
+from custom_mmcv_210.ops import RoIAlign
 from custom_mmengine_0102.hooks import LoggerHook, SyncBuffersHook
 from custom_mmengine_0102.model.weight_init import PretrainedInit
 from custom_mmengine_0102.optim import MultiStepLR, OptimWrapper

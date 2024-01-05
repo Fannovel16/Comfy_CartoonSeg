@@ -4,8 +4,8 @@ from typing import Optional
 
 import custom_mmcv_210 as mmcv
 import numpy as np
-from mmcv.transforms import BaseTransform
-from mmcv.transforms.utils import cache_randomness
+from custom_mmcv_210.transforms import BaseTransform
+from custom_mmcv_210.transforms.utils import cache_randomness
 
 from custom_mmdet_330.registry import TRANSFORMS
 from .augment_wrappers import _MAX_LEVEL, level_to_mag

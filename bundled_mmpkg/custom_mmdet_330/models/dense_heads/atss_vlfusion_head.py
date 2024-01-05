@@ -6,8 +6,8 @@ from typing import Callable, List, Optional, Sequence, Tuple, Union
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.cnn import Scale
-from mmcv.ops.modulated_deform_conv import ModulatedDeformConv2d
+from custom_mmcv_210.cnn import Scale
+from custom_mmcv_210.ops.modulated_deform_conv import ModulatedDeformConv2d
 from custom_mmengine_0102.config import ConfigDict
 from custom_mmengine_0102.model import BaseModel
 from custom_mmengine_0102.structures import InstanceData

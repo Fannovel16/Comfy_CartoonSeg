@@ -5,9 +5,9 @@ import custom_mmcv_210 as mmcv
 import numpy as np
 import pycocotools.mask as maskUtils
 import torch
-from mmcv.transforms import BaseTransform
-from mmcv.transforms import LoadAnnotations as MMCV_LoadAnnotations
-from mmcv.transforms import LoadImageFromFile
+from custom_mmcv_210.transforms import BaseTransform
+from custom_mmcv_210.transforms import LoadAnnotations as MMCV_LoadAnnotations
+from custom_mmcv_210.transforms import LoadImageFromFile
 from custom_mmengine_0102.fileio import get
 from custom_mmengine_0102.structures import BaseDataElement
 

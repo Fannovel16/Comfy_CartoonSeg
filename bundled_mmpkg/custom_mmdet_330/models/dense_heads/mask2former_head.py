@@ -5,8 +5,8 @@ from typing import List, Tuple
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mmcv.cnn import Conv2d
-from mmcv.ops import point_sample
+from custom_mmcv_210.cnn import Conv2d
+from custom_mmcv_210.ops import point_sample
 from custom_mmengine_0102.model import ModuleList, caffe2_xavier_init
 from custom_mmengine_0102.structures import InstanceData
 from torch import Tensor

@@ -2,8 +2,8 @@
 from typing import Union
 
 import torch
-from mmcv.cnn import build_norm_layer
-from mmcv.cnn.bricks.transformer import FFN, MultiheadAttention
+from custom_mmcv_210.cnn import build_norm_layer
+from custom_mmcv_210.cnn.bricks.transformer import FFN, MultiheadAttention
 from custom_mmengine_0102 import ConfigDict
 from custom_mmengine_0102.model import BaseModule, ModuleList
 from torch import Tensor

@@ -1,5 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
-from mmcv.transforms import (LoadImageFromFile, RandomResize,
+from custom_mmcv_210.transforms import (LoadImageFromFile, RandomResize,
                              TransformBroadcaster)
 
 from custom_mmdet_330.datasets import MOTChallengeDataset
