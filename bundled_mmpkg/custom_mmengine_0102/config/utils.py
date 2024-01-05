@@ -401,12 +401,12 @@ class ImportTransformer(ast.NodeTransformer):
             ast.Assign will be returned, otherwise node will be directly
             returned.
         """
-        # For absolute import like: `import mmdet.configs as configs`.
+        # For absolute import like: `import custom_mmdet_330.configs as configs`.
         # It will be parsed as:
         # configs = LazyObject('mmdet.configs')
         # For absolute import like:
-        # `import mmdet.configs`
-        # `import mmdet.configs.default_runtime`
+        # `import custom_mmdet_330.configs`
+        # `import custom_mmdet_330.configs.default_runtime`
         # This will be parsed as
         # mmdet = LazyObject(['mmdet.configs.default_runtime', 'mmdet.configs])
         # However, visit_Import cannot gather other import information, so

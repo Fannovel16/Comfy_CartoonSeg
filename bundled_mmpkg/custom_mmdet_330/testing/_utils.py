@@ -21,7 +21,7 @@ def _get_config_directory():
         repo_dpath = dirname(dirname(dirname(__file__)))
     except NameError:
         # For IPython development when this __file__ is not defined
-        import mmdet
+        import custom_mmdet_330 as mmdet
         repo_dpath = dirname(dirname(mmdet.__file__))
     config_dpath = join(repo_dpath, 'configs')
     if not exists(config_dpath):

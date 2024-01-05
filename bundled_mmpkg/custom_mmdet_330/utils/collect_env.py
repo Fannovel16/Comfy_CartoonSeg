@@ -2,7 +2,7 @@
 from custom_mmengine_0102.utils import get_git_hash
 from custom_mmengine_0102.utils.dl_utils import collect_env as collect_base_env
 
-import mmdet
+import custom_mmdet_330 as mmdet
 
 
 def collect_env():
