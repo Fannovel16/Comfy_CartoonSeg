@@ -42,25 +42,6 @@ else:
     mim_install = [sys.executable, '-m', 'mim', 'install']
 
 process_wrap(pip_install + ['openmim'])
-try:
-    import pycocotools
-except Exception:
-    if platform.system() not in ["Windows"] or platform.machine() not in ["AMD64", "x86_64"]:
-        print(f"Your system is {platform.system()}; !! You need to install 'libpython3-dev' for this step. !!")
-
-        process_wrap(pip_install + ['pycocotools'])
-    else:
-        pycocotools = {
-            (3, 8): "https://github.com/Bing-su/dddetailer/releases/download/pycocotools/pycocotools-2.0.6-cp38-cp38-win_amd64.whl",
-            (3, 9): "https://github.com/Bing-su/dddetailer/releases/download/pycocotools/pycocotools-2.0.6-cp39-cp39-win_amd64.whl",
-            (3, 10): "https://github.com/Bing-su/dddetailer/releases/download/pycocotools/pycocotools-2.0.6-cp310-cp310-win_amd64.whl",
-            (3, 11): "https://github.com/Bing-su/dddetailer/releases/download/pycocotools/pycocotools-2.0.6-cp311-cp311-win_amd64.whl",
-        }
-
-        version = sys.version_info[:2]
-        url = pycocotools[version]
-        process_wrap(pip_install + [url])
-
 def ensure_mmdet_package():
     try:
         import mmcv
