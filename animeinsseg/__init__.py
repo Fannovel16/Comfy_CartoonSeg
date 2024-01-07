@@ -18,7 +18,7 @@ from mmdet.registry import MODELS
 from mmdet.structures import DetDataSample, SampleList
 from mmdet.structures.bbox.transforms import scale_boxes, get_box_wh
 from mmdet.models.dense_heads.rtmdet_ins_head import RTMDetInsHead
-from pycocotools.coco import COCO
+#from pycocotools.coco import COCO
 from mmcv.transforms import Compose
 from mmdet.models.detectors.single_stage import SingleStageDetector
 
