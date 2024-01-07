@@ -48,9 +48,8 @@ def ensure_mmdet_package():
         import mmdet
         from mmdet.evaluation import get_classes
     except Exception:
-        process_wrap(pip_install + ['opendatalab==0.0.9'])
         process_wrap(pip_install + ['-U', 'openmim'])
-        process_wrap(mim_install + ['mmdet==3.3.0'])
+        process_wrap(mim_install + ['mmdet==3.2.0'])
 
 my_path = os.path.dirname(__file__)
 requirements_path = os.path.join(my_path, "other_requirements.txt")
