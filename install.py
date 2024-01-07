@@ -69,7 +69,7 @@ def ensure_mmdet_package():
     except Exception:
         process_wrap(pip_install + ['opendatalab==0.0.9'])
         process_wrap(pip_install + ['-U', 'openmim'])
-        process_wrap(mim_install + ['mmcv>=2.0.0rc4, <2.1.0'])
+        process_wrap(mim_install + ['mmcv==2.1.0'])
         process_wrap(mim_install + ['mmdet==3.0.0'])
         process_wrap(mim_install + ['mmengine==0.7.4'])
 
